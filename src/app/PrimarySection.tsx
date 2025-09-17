@@ -2,13 +2,14 @@ import type { FC, PropsWithChildren } from 'react';
 import companies from '../../public/icons/companies.svg';
 import terminal from '../../public/icons/terminal.svg';
 import users from '../../public/icons/users.svg';
+import LandingPageIcon from '@/lib/components/LandingPageIcon';
 import Page from '@/lib/components/Page.tsx';
 
 const Statistic: FC<
   PropsWithChildren<{ icon: { src: string; alt: string }; percentage: number }>
 > = ({ children, icon, percentage }) => (
   <div className="flex w-84 flex-col items-center px-4 font-sora">
-    <img src={icon.src} alt={icon.alt} width={40} height={40} />
+    <LandingPageIcon {...icon} />
     <p
       className={`
         text-center text-sora-heading-xlarge font-light
