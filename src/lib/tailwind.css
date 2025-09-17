@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap");
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
@@ -6,6 +6,7 @@
 
 @theme {
     --font-sora: 'Sora', sans;
+    --font-roboto: 'Roboto', sans;
 }
 
 @theme inline {
@@ -47,15 +48,33 @@
 
   /*  Custom colors */
   --background-gradient: 90deg, #FF518C 0%, #5C3994 100%;
+  --color-primary-grey: #D2D2D3;
 
   /*    Custom typography settings */
-  --text-heading-small: 1.5rem;
-  --text-heading-small--line-height: 140%;
+  /*  Sora */
+  --text-sora-heading-small: 1.5rem;
+  --text-sora-heading-small--line-height: 140%;
+  --text-sora-heading-xxlarge: 3.5rem;
+  --text-sora-heading-xxlarge--line-height: 120%;
+  --text-sora-heading-xlarge: 3rem;
+  --text-sora-heading-xlarge--line-height: 120%;
+  --text-sora-heading-large: 2.5rem;
+  --text-sora-heading-large--line-height: 120%;
+
+  /* Roboto */
+  --text-roboto-large: 1.25rem;
+  --text-roboto-large--line-height: 140%;
+  --text-roboto-medium: 1.125rem;
+  --text-roboto-medium--line-height: 150%
 }
 
 :root {
+  /*  Custom colors */
   --background: #00102A;
   --primary-foreground: #fff;
+  --secondary-foreground: #FF518C;
+
+  /*  Radix colors */
   --radius: 0.625rem;
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
@@ -64,7 +83,6 @@
   --popover-foreground: oklch(0.145 0 0);
   --primary: oklch(0.205 0 0);
   --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
   --accent: oklch(0.97 0 0);
