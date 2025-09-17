@@ -9,8 +9,8 @@ const NavBar = () => {
   return (
     <header
       className={`
-        flex h-23 flex-row justify-between bg-background px-10 font-sora
-        font-light text-primary-foreground
+        sticky top-0 z-10 flex h-23 w-full flex-row justify-between
+        bg-background px-10 font-sora font-light text-primary-foreground
       `}
     >
       <div className="flex items-center justify-between gap-2">
@@ -19,11 +19,11 @@ const NavBar = () => {
           alt="Open Source Economy"
           className="h-11 w-17"
         />
-        <h1 className="w-47 text-left text-heading-small">
+        <h1 className="w-47 text-left text-sora-heading-small">
           Open Source Economy
         </h1>
       </div>
-      <div className="flex flex-row items-center gap-8">
+      <div className="flex flex-row items-center gap-8 font-roboto">
         <NavLink>Home</NavLink>
         <NavLink>About Us</NavLink>
         <NavLink>Solutions</NavLink>
