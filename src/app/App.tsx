@@ -1,15 +1,9 @@
-import CaseStudySection from '@/app/CaseStudySection.tsx';
-import LetUsProtectSection from '@/app/LetUsProtectSection.tsx';
-import PrimarySection from '@/app/PrimarySection.tsx';
-import NavBar from '@/lib/components/NavBar';
+import LandingPage from '@/app/LandingPage';
 
 const App = () => {
   return (
     <>
-      <NavBar />
-      <PrimarySection />
-      <CaseStudySection />
-      <LetUsProtectSection />
+      <LandingPage />
     </>
   );
 };

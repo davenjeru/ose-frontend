@@ -1,11 +1,11 @@
 import type { FC, PropsWithChildren } from 'react';
-import financialDevastation from '../../public/icons/financial-devastation.svg';
-import moneyLoss from '../../public/icons/money-loss.svg';
-import operationalParalysis from '../../public/icons/operational-paralysis.svg';
 import LandingPageIcon, {
   type LandingPageIconProps,
 } from '@/lib/components/LandingPageIcon';
 import Page from '@/lib/components/Page.tsx';
+import financialDevastation from '@/lib/icons/financial-devastation.svg';
+import moneyLoss from '@/lib/icons/money-loss.svg';
+import operationalParalysis from '@/lib/icons/operational-paralysis.svg';
 
 const CaseStudyStats: FC<
   PropsWithChildren<{ icon: LandingPageIconProps; title: string }>

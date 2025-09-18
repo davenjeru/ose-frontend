@@ -1,9 +1,9 @@
 import type { FC, PropsWithChildren } from 'react';
-import companies from '../../public/icons/companies.svg';
-import terminal from '../../public/icons/terminal.svg';
-import users from '../../public/icons/users.svg';
 import LandingPageIcon from '@/lib/components/LandingPageIcon';
 import Page from '@/lib/components/Page.tsx';
+import companies from '@/lib/icons/companies.svg';
+import terminal from '@/lib/icons/terminal.svg';
+import users from '@/lib/icons/users.svg';
 
 const Statistic: FC<
   PropsWithChildren<{ icon: { src: string; alt: string }; percentage: number }>
