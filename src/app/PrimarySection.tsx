@@ -18,7 +18,9 @@ const Statistic: FC<
     >
       {percentage}%
     </p>
-    <p className="text-center font-roboto text-roboto-large">{children}</p>
+    <p className="text-center font-roboto text-roboto-text-large font-light">
+      {children}
+    </p>
   </div>
 );
 
@@ -35,7 +37,7 @@ const PrimarySection = () => (
         </h1>
         <p
           className={`
-            text-center font-roboto text-roboto-medium text-primary-grey
+            text-center font-roboto text-roboto-text-medium text-primary-grey
           `}
         >
           Open source is powerful — but it also opens the door to supply chain

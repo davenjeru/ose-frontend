@@ -21,7 +21,7 @@ const CaseStudyStats: FC<
 
 const CaseStudySection = () => (
   <Page>
-    <div className="-mt-40 flex flex-col items-center gap-16 pt-20">
+    <div className="-mt-45 flex flex-col items-center gap-16">
       <div className="flex flex-col items-center gap-4">
         <h1
           className={`
@@ -33,7 +33,7 @@ const CaseStudySection = () => (
         </h1>
         <p
           className={`
-            text-center font-roboto text-roboto-medium text-primary-grey
+            text-center font-roboto text-roboto-text-medium text-primary-grey
           `}
         >
           In December 2021, Log4Shell (CVE-2021-44228) exposed millions of
@@ -47,7 +47,7 @@ const CaseStudySection = () => (
           icon={{ src: moneyLoss, alt: 'Reputational Damage Icon' }}
           title="Reputational Damage"
         >
-          <ul className="flex flex-col gap-4 font-roboto">
+          <ul className="flex flex-col gap-4 font-roboto font-light">
             <li>Damaged brand reputation.</li>
             <li>Consumer trust erosion.</li>
             <li>Negative press and public scrutiny.</li>
@@ -60,7 +60,7 @@ const CaseStudySection = () => (
           }}
           title="Financial Devastation"
         >
-          <ul className="flex flex-col gap-4 font-roboto">
+          <ul className="flex flex-col gap-4 font-roboto font-light">
             <li>
               <b>$700M+</b> legal exposure established.
             </li>
@@ -77,7 +77,7 @@ const CaseStudySection = () => (
           }}
           title="Operational Paralysis"
         >
-          <ul className="flex flex-col gap-4 font-roboto">
+          <ul className="flex flex-col gap-4 font-roboto font-light">
             <li>
               <b>Up to 3,300 developer hours lost.</b>
             </li>
