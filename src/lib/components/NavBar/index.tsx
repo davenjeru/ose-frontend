@@ -1,5 +1,5 @@
 import type { FC, PropsWithChildren } from 'react';
-import openSourceEconomyLogo from '../../../../public/images/open-source-logo.svg';
+import openSourceEconomyLogo from '@/lib/icons/open-source-logo.svg';
 
 const NavLink: FC<PropsWithChildren> = ({ children }) => (
   <div className="">{children}</div>
