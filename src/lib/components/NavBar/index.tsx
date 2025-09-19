@@ -10,7 +10,7 @@ const NavBar = () => {
     <header
       className={`
         sticky top-0 z-10 flex h-23 w-full flex-row justify-between
-        bg-background px-10 font-sora font-light text-primary-foreground
+        bg-background px-15 font-sora font-light text-primary-foreground
       `}
     >
       <div className="flex items-center justify-between gap-2">
