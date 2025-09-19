@@ -2,7 +2,7 @@ import NewsletterForm from '@/lib/components/Footer/NewsletterForm';
 import LandingPageIcon from '@/lib/components/LandingPageIcon';
 import linkedInIcon from '@/lib/icons/linkedin.svg';
 import openSourceEconomyLogo from '@/lib/icons/open-source-logo.svg';
-import xIcon from '@/lib/icons/x.svg';
+import xIcon from '@/lib/icons/X.svg';
 import youtubeIcon from '@/lib/icons/youtube.svg';
 
 const Footer = () => (
