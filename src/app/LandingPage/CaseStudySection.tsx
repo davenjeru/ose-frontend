@@ -33,7 +33,8 @@ const CaseStudySection = () => (
         </h1>
         <p
           className={`
-            text-center font-roboto text-roboto-text-medium text-primary-grey
+            text-center font-roboto text-roboto-text-medium font-light
+            text-primary-grey
           `}
         >
           In December 2021, Log4Shell (CVE-2021-44228) exposed millions of

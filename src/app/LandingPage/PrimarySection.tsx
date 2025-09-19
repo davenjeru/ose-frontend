@@ -37,7 +37,8 @@ const PrimarySection = () => (
         </h1>
         <p
           className={`
-            text-center font-roboto text-roboto-text-medium text-primary-grey
+            text-center font-roboto text-roboto-text-medium font-light
+            text-primary-grey
           `}
         >
           Open source is powerful — but it also opens the door to supply chain

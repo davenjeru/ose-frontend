@@ -73,7 +73,9 @@
   --text-roboto-text-medium: 1.125rem;
   --text-roboto-text-medium--line-height: 150%;
   --text-roboto-text-tiny: 0.75rem;
-  --text-roboto-text-tiny--line-height: 150%
+  --text-roboto-text-tiny--line-height: 150%;
+  --text-roboto-text-regular: 1rem;
+  --text-roboto-text-regular--line-height: 150%;
 }
 
 :root {
