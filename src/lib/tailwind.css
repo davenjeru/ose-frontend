@@ -65,6 +65,8 @@
   --text-sora-heading-large: 2.5rem;
   --text-sora-heading-large--line-height: 120%;
 
+  --text-sora-text-small: 0.875rem;
+  --text-sora-text-small--line-height: 150%;
   /* Roboto */
   --text-roboto-text-large: 1.25rem;
   --text-roboto-text-large--line-height: 140%;
