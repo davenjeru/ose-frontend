@@ -21,7 +21,7 @@ const CaseStudyStats: FC<
 
 const CaseStudySection = () => (
   <Page>
-    <div className="-mt-45 flex flex-col items-center gap-16">
+    <div className="flex flex-col items-center gap-16">
       <div className="flex flex-col items-center gap-4">
         <h1
           className={`

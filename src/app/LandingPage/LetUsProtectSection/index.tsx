@@ -4,7 +4,7 @@ import Page from '@/lib/components/Page.tsx';
 
 const LetUsProtectSection = () => (
   <Page>
-    <div className="-mt-20 flex flex-col items-center gap-16">
+    <div className="flex flex-col items-center gap-16">
       <h1 className="text-center font-sora text-sora-heading-xxlarge font-light">
         Let Us Protect You
       </h1>
