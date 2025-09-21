@@ -10,9 +10,26 @@ import operationalParalysis from '@/lib/icons/operational-paralysis.svg';
 const CaseStudyStats: FC<
   PropsWithChildren<{ icon: LandingPageIconProps; title: string }>
 > = ({ icon, title, children }) => (
-  <div className="flex w-84 flex-col gap-4 font-sora">
-    <LandingPageIcon {...icon} />
-    <h1 className="text-left text-sora-heading-large text-secondary-foreground">
+  <div
+    className={`
+      flex flex-col gap-4 text-center font-sora
+      md:max-w-45 md:text-left
+      xl:max-w-82
+    `}
+  >
+    <LandingPageIcon
+      {...icon}
+      className={`
+        self-center
+        md:self-start
+      `}
+    />
+    <h1
+      className={`
+        text-sora-heading-small text-secondary-foreground
+        xl:text-sora-heading-large
+      `}
+    >
       {title}
     </h1>
     {children}
@@ -25,7 +42,10 @@ const CaseStudySection = () => (
       <div className="flex flex-col items-center gap-4">
         <h1
           className={`
-            text-center font-sora text-sora-heading-xxlarge font-light
+            text-center font-sora text-sora-heading-medium
+            md:text-sora-heading-large md:font-light
+            lg:text-sora-heading-xlarge
+            xl:text-sora-heading-xxlarge
           `}
         >
           Do You Remember{' '}
@@ -33,22 +53,32 @@ const CaseStudySection = () => (
         </h1>
         <p
           className={`
-            text-center font-roboto text-roboto-text-medium font-light
+            text-center font-roboto text-roboto-text-small font-light
             text-primary-grey
+            md:max-w-180 md:text-roboto-text-medium
           `}
         >
           In December 2021, Log4Shell (CVE-2021-44228) exposed millions of
-          Java-based systems <br /> worldwide. A single logging library
-          triggered a global cybersecurity crisis with catastrophic <br />
-          consequences.
+          Java-based systems worldwide. A single logging library triggered a
+          global cybersecurity crisis with catastrophic consequences.
         </p>
       </div>
-      <div className="flex flex-row gap-8">
+      <div
+        className={`
+          flex w-full max-w-328 flex-col items-center gap-10 px-20
+          md:flex-row md:justify-center md:gap-20
+        `}
+      >
         <CaseStudyStats
           icon={{ src: moneyLoss, alt: 'Reputational Damage Icon' }}
           title="Reputational Damage"
         >
-          <ul className="flex flex-col gap-4 font-roboto font-light">
+          <ul
+            className={`
+              flex flex-col items-center gap-4 font-roboto font-light
+              md:items-start
+            `}
+          >
             <li>Damaged brand reputation.</li>
             <li>Consumer trust erosion.</li>
             <li>Negative press and public scrutiny.</li>
@@ -61,7 +91,12 @@ const CaseStudySection = () => (
           }}
           title="Financial Devastation"
         >
-          <ul className="flex flex-col gap-4 font-roboto font-light">
+          <ul
+            className={`
+              flex flex-col items-center gap-4 font-roboto font-light
+              md:items-start
+            `}
+          >
             <li>
               <b>$700M+</b> legal exposure established.
             </li>
@@ -78,7 +113,12 @@ const CaseStudySection = () => (
           }}
           title="Operational Paralysis"
         >
-          <ul className="flex flex-col gap-4 font-roboto font-light">
+          <ul
+            className={`
+              flex flex-col items-center gap-4 font-roboto font-light
+              md:items-start
+            `}
+          >
             <li>
               <b>Up to 3,300 developer hours lost.</b>
             </li>
@@ -89,7 +129,9 @@ const CaseStudySection = () => (
       </div>
       <h3
         className={`
-          font-sora text-sora-heading-small font-light text-primary-grey
+          text-center font-sora text-sora-heading-xsmall font-light
+          text-primary-grey
+          md:text-sora-heading-small
         `}
       >
         Don’t let your organization be the next case study.

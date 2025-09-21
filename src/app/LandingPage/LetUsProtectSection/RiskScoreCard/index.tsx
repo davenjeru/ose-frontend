@@ -37,8 +37,9 @@ const RiskScoreCard = () => {
   return (
     <div
       className={`
-        flex h-134 w-[325px] flex-col items-center rounded-md border
-        border-gray-700 p-2
+        flex max-w-80 flex-col items-center rounded-md border border-gray-700
+        p-2 pb-4
+        md:h-134
       `}
     >
       <h3 className="font-sora text-sora-heading-small font-light">

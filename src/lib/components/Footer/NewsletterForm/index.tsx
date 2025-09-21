@@ -51,7 +51,12 @@ const NewsletterForm = () => {
         className="relative flex flex-row"
         onSubmit={form.handleSubmit(onSubmit)}
       >
-        <div className="flex min-w-77 flex-col">
+        <div
+          className={`
+            flex w-full flex-col
+            md:min-w-77
+          `}
+        >
           <EmailInput form={form} />
           <p
             className={`
