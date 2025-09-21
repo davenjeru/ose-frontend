@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <header
       className={`
-        sticky top-0 z-10 flex h-23 w-full flex-row justify-between
+        sticky top-0 z-100 flex h-23 w-full flex-row justify-between
         bg-background px-15 font-sora font-light text-primary-foreground
       `}
     >

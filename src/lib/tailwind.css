@@ -67,6 +67,10 @@
 
   --text-sora-text-small: 0.875rem;
   --text-sora-text-small--line-height: 150%;
+  --text-sora-text-large: 1.25rem;
+  --text-sora-text-large--line-height: 150%;
+
+
   /* Roboto */
   --text-roboto-text-large: 1.25rem;
   --text-roboto-text-large--line-height: 140%;
@@ -76,6 +80,8 @@
   --text-roboto-text-tiny--line-height: 150%;
   --text-roboto-text-regular: 1rem;
   --text-roboto-text-regular--line-height: 150%;
+  --text-roboto-text-small:0.875rem;
+  --text-roboto-text-small--line-height: 150%;
 }
 
 :root {
