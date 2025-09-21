@@ -9,8 +9,8 @@ const GradientButton: FC<ComponentProps<'button'>> = ({
   <button
     className={cn(
       `
-        cursor-pointer rounded-[12px] bg-linear-(--background-gradient) px-4
-        py-2.5
+        h-max cursor-pointer rounded-[12px] bg-linear-(--background-gradient)
+        px-4 py-2.5 font-sora font-light
         disabled:cursor-progress disabled:[filter:grayscale(0.5)]
       `,
       className
