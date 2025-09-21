@@ -2,15 +2,22 @@ import type { FC, PropsWithChildren } from 'react';
 import openSourceEconomyLogo from '@/lib/icons/open-source-logo.svg';
 
 const NavLink: FC<PropsWithChildren> = ({ children }) => (
-  <div className="">{children}</div>
+  <div
+    className={`
+      hidden
+      lg:block
+    `}
+  >
+    {children}
+  </div>
 );
 
 const NavBar = () => {
   return (
     <header
       className={`
-        sticky top-0 z-100 flex h-23 w-full flex-row justify-between
-        bg-background px-15 font-sora font-light text-primary-foreground
+        sticky top-0 z-100 flex h-23 flex-row justify-between bg-background px-4
+        font-sora font-light text-primary-foreground
       `}
     >
       <div className="flex items-center justify-between gap-2">
@@ -19,7 +26,12 @@ const NavBar = () => {
           alt="Open Source Economy"
           className="h-11 w-17"
         />
-        <h1 className="w-47 text-left text-sora-heading-small">
+        <h1
+          className={`
+            hidden w-47 text-left text-sora-heading-small
+            lg:block
+          `}
+        >
           Open Source Economy
         </h1>
       </div>

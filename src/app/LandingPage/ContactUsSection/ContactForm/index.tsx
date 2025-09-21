@@ -47,8 +47,8 @@ const ContactFormMessage: FC<ContactFormMessageProps> = ({
 }) => (
   <div
     className={`
-      absolute top-4 right-4 bottom-4 left-4 z-30 flex flex-col items-center
-      gap-8 rounded-lg border border-gray-700 bg-background p-4
+      absolute top-2.5 right-2.5 bottom-2.5 left-2.5 z-30 flex flex-col
+      items-center gap-8 rounded-[1rem] border border-gray-700 bg-background p-4
     `}
   >
     <button
@@ -77,13 +77,18 @@ const ContactFormError: FC<Pick<ContactFormMessageProps, 'close'>> = ({
       <div className="rounded-[50%] bg-[#1A283F] p-2">
         <LandingPageIcon src={errorIcon} alt="Error" />
       </div>
-      <h5 className="font-sora text-sora-text-large font-semibold text-red-500">
+      <h5
+        className={`
+          text-center font-sora text-sora-text-large font-semibold text-red-500
+        `}
+      >
         Oops! Something went wrong
       </h5>
-      <p className="text-center font-roboto text-roboto-text-regular font-light">
-        We couldn't process your request at the moment.
-        <br />
-        Please check your connection and try again later.
+      <p
+        className={`text-center font-roboto text-roboto-text-regular font-light`}
+      >
+        We couldn't process your request at the moment. Please check your
+        connection and try again later.
       </p>
       <div
         className={`
@@ -109,14 +114,16 @@ const ContactFormSuccess: FC<Pick<ContactFormMessageProps, 'close'>> = ({
         <LandingPageIcon src={sentIcon} alt="Success" />
       </div>
       <h5
-        className={`font-sora text-sora-text-large font-semibold text-green-500`}
+        className={`
+          text-center font-sora text-sora-text-large font-semibold
+          text-green-500
+        `}
       >
         We have received your message
       </h5>
       <p className="text-center font-roboto text-roboto-text-regular font-light">
-        Thank you for reaching out.
-        <br />
-        We'll look at your message and get back to you.
+        Thank you for reaching out. We'll look at your message and get back to
+        you.
       </p>
     </ContactFormMessage>
   );
@@ -150,25 +157,41 @@ const ContactForm = () => {
   return (
     <div
       className={`
-        relative mt-8 flex w-128 flex-col items-center gap-4 rounded-lg border
-        border-gray-700 p-4 pb-8
+        relative mt-8 flex max-w-128 flex-col items-center gap-4 rounded-[1rem]
+        border border-gray-700 p-4 pb-8
         [box-shadow:0px_25px_50px_-12px_rgba(239,77,172,0.25)]
+        md:items-start
       `}
     >
       {sendMessageSuccess && <ContactFormSuccess close={() => reset()} />}
       {sendMessageError && <ContactFormError close={() => reset()} />}
 
-      <h2 className="self-start font-sora text-sora-heading-large font-light">
+      <h2
+        className={`
+          text-center font-sora text-sora-heading-small font-light
+          md:text-left md:text-sora-heading-large
+        `}
+      >
         Get In Touch
       </h2>
-      <p className="self-start font-roboto text-roboto-text-large font-light">
+      <p
+        className={`
+          text-center font-roboto text-roboto-text-small font-light
+          md:text-left md:text-roboto-text-large
+        `}
+      >
         This is so that we can get in contact with you in case any opportunity
         comes up
       </p>
       <Form {...form}>
-        <form className="h-full w-full" onSubmit={form.handleSubmit(onSubmit)}>
+        <form className="w-full" onSubmit={form.handleSubmit(onSubmit)}>
           <div className="mt-4 flex flex-col gap-3">
-            <div className="flex flex-row gap-2">
+            <div
+              className={`
+                flex flex-col gap-3
+                md:flex-row md:gap-2
+              `}
+            >
               <FullNameInput form={form} />
               <EmailInput form={form} />
             </div>

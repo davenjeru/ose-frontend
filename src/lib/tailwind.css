@@ -56,14 +56,18 @@
 
   /*    Custom typography settings */
   /*  Sora */
+  --text-sora-heading-xsmall: 1.25rem;
+  --text-sora-heading-xsmall--line-height: 140%;
   --text-sora-heading-small: 1.5rem;
   --text-sora-heading-small--line-height: 140%;
-  --text-sora-heading-xxlarge: 3.5rem;
-  --text-sora-heading-xxlarge--line-height: 120%;
-  --text-sora-heading-xlarge: 3rem;
-  --text-sora-heading-xlarge--line-height: 120%;
+  --text-sora-heading-medium: 2rem;
+  --text-sora-heading-medium--line-height: 130%;
   --text-sora-heading-large: 2.5rem;
   --text-sora-heading-large--line-height: 120%;
+  --text-sora-heading-xlarge: 3rem;
+  --text-sora-heading-xlarge--line-height: 120%;
+  --text-sora-heading-xxlarge: 3.5rem;
+  --text-sora-heading-xxlarge--line-height: 120%;
 
   --text-sora-text-small: 0.875rem;
   --text-sora-text-small--line-height: 150%;
