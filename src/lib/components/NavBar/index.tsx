@@ -1,4 +1,5 @@
 import type { FC, PropsWithChildren } from 'react';
+import GradientButton from '@/lib/components/GradientButton';
 import openSourceEconomyLogo from '@/lib/icons/open-source-logo.svg';
 
 const NavLink: FC<PropsWithChildren> = ({ children }) => (
@@ -41,13 +42,7 @@ const NavBar = () => {
         <NavLink>Solutions</NavLink>
         <NavLink>Contact Us</NavLink>
       </div>
-      <button
-        className={`
-          h-11 w-35 self-center rounded-[12px] bg-linear-(--background-gradient)
-        `}
-      >
-        Sign In
-      </button>
+      <GradientButton className="w-35 self-center">Sign In</GradientButton>
     </header>
   );
 };
