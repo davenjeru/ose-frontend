@@ -1,0 +1,2273 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LandingPage > renders without crashing 1`] = `
+<div>
+  <header
+    class="
+        sticky top-0 z-100 flex h-23 flex-row justify-between bg-background px-4
+        font-sora font-light text-primary-foreground
+      "
+  >
+    <div
+      class="flex items-center justify-between gap-2"
+    >
+      <img
+        alt="Open Source Economy"
+        class="h-11 w-17"
+        src="/src/lib/icons/open-source-logo.svg"
+      />
+      <h1
+        class="
+            hidden w-47 text-left text-sora-heading-small
+            lg:block
+          "
+      >
+        Open Source Economy
+      </h1>
+    </div>
+    <div
+      class="flex flex-row items-center gap-8 font-roboto"
+    >
+      <div
+        class="
+      hidden
+      lg:block
+    "
+      >
+        Home
+      </div>
+      <div
+        class="
+      hidden
+      lg:block
+    "
+      >
+        About Us
+      </div>
+      <div
+        class="
+      hidden
+      lg:block
+    "
+      >
+        Solutions
+      </div>
+      <div
+        class="
+      hidden
+      lg:block
+    "
+      >
+        Contact Us
+      </div>
+    </div>
+    <button
+      class="h-max cursor-pointer rounded-[12px] bg-linear-(--background-gradient) px-4 py-2.5 font-sora font-light disabled:cursor-progress disabled:[filter:grayscale(0.5)] w-35 self-center"
+    >
+      Sign In
+    </button>
+  </header>
+  <div
+    class="mb-40 bg-background px-4 text-primary-foreground"
+  >
+    <div
+      class="flex flex-col items-center gap-16 pt-20"
+    >
+      <div
+        class="flex flex-col items-center gap-4"
+      >
+        <h1
+          class="
+            max-w-250 text-center font-sora text-sora-heading-medium
+            md:text-sora-heading-large md:font-light
+            lg:text-sora-heading-xlarge
+            xl:text-sora-heading-xxlarge
+          "
+        >
+          What’s The Cost Of Using Open Source Blindly?
+        </h1>
+        <p
+          class="
+            text-center font-roboto text-roboto-text-small font-light
+            text-primary-grey
+            md:max-w-180 md:text-roboto-text-medium
+          "
+        >
+          Open source is powerful — but it also opens the door to supply chain attacks. 
+          <br />
+          Too often, essential libraries are maintained by just a handful of volunteers without the resources to keep them secure.
+        </p>
+      </div>
+      <div
+        class="
+          flex flex-col gap-8
+          md:flex-row md:justify-center
+          lg:gap-16
+        "
+      >
+        <div
+          class="flex flex-col items-center font-sora"
+        >
+          <img
+            alt="Open Source Projects Stats"
+            class=""
+            height="40"
+            src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M4.80005%2017.9333H19.7334M5.94877%204.06665V17.9333M13.9898%204.06665V17.9333M18.5847%207.53332V17.9333M8.2462%206.95554H8.82056M8.2462%209.26665H8.82056M8.2462%2011.5778H8.82056M11.118%206.95554H11.6924M11.118%209.26665H11.6924M11.118%2011.5778H11.6924M8.2462%2017.9333V15.3333C8.2462%2014.8549%208.63217%2014.4666%209.10774%2014.4666H10.8308C11.3064%2014.4666%2011.6924%2014.8549%2011.6924%2015.3333V17.9333M5.37441%204.06665H14.5642M13.9898%207.53332H19.159M16.2872%2010.4222H16.2934V10.4284H16.2872V10.4222ZM16.2872%2012.7333H16.2934V12.7395H16.2872V12.7333ZM16.2872%2015.0444H16.2934V15.0506H16.2872V15.0444Z'%20stroke='%23FF8AB2'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+            width="40"
+          />
+          <p
+            class="
+        text-center text-sora-heading-medium font-light
+        text-secondary-foreground
+        sm:text-sora-heading-large
+        xl:text-sora-heading-xlarge
+      "
+          >
+            90
+            %
+          </p>
+          <p
+            class="
+        max-w-61 text-center font-roboto font-light
+        xl:text-roboto-text-large
+      "
+          >
+            of companies are using open source projects
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center font-sora"
+        >
+          <img
+            alt="Code Stats"
+            class=""
+            height="40"
+            src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.25%2012.5L16.25%2016.25L11.25%2020M18.75%2020H23.75M8.75%2033.75H31.25C32.2446%2033.75%2033.1984%2033.3549%2033.9016%2032.6516C34.6049%2031.9484%2035%2030.9946%2035%2030V10C35%209.00544%2034.6049%208.05161%2033.9016%207.34835C33.1984%206.64509%2032.2446%206.25%2031.25%206.25H8.75C7.75544%206.25%206.80161%206.64509%206.09835%207.34835C5.39509%208.05161%205%209.00544%205%2010V30C5%2030.9946%205.39509%2031.9484%206.09835%2032.6516C6.80161%2033.3549%207.75544%2033.75%208.75%2033.75Z'%20stroke='%23FF8AB2'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+            width="40"
+          />
+          <p
+            class="
+        text-center text-sora-heading-medium font-light
+        text-secondary-foreground
+        sm:text-sora-heading-large
+        xl:text-sora-heading-xlarge
+      "
+          >
+            76
+            %
+          </p>
+          <p
+            class="
+        max-w-61 text-center font-roboto font-light
+        xl:text-roboto-text-large
+      "
+          >
+            of code in codebases is open source
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center font-sora"
+        >
+          <img
+            alt="Maintainers Stats"
+            class=""
+            height="40"
+            src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M28.4316%2025.8683C29.2112%2025.3359%2030.1257%2025.0351%2031.0692%2025.0007C32.0126%2024.9663%2032.9466%2025.1998%2033.7629%2025.674C34.5793%2026.1483%2035.2447%2026.844%2035.6821%2027.6806C36.1196%2028.5173%2036.3112%2029.4607%2036.2349%2030.4017C34.2352%2031.1006%2032.1112%2031.3725%2029.9999%2031.2C29.9934%2029.311%2029.4494%2027.4613%2028.4316%2025.87C27.5281%2024.453%2026.2818%2023.2867%2024.8079%2022.4792C23.3341%2021.6716%2021.6804%2021.2489%2019.9999%2021.25C18.3196%2021.2491%2016.6663%2021.672%2015.1928%2022.4796C13.7193%2023.2871%2012.4732%2024.4532%2011.5699%2025.87M29.9982%2031.1983L29.9999%2031.25C29.9999%2031.625%2029.9799%2031.995%2029.9382%2032.36C26.9138%2034.0952%2023.4867%2035.0056%2019.9999%2035C16.3832%2035%2012.9882%2034.04%2010.0616%2032.36C10.0187%2031.9743%209.99812%2031.5864%209.99989%2031.1983M9.99989%2031.1983C7.88928%2031.3771%205.76641%2031.1061%203.76823%2030.4033C3.69215%2029.4626%203.88388%2028.5195%204.32127%2027.6832C4.75866%2026.8468%205.42384%2026.1513%206.2399%2025.6771C7.05595%2025.203%207.98955%2024.9694%208.93276%2025.0036C9.87596%2025.0377%2010.7902%2025.3381%2011.5699%2025.87M9.99989%2031.1983C10.0059%2029.3095%2010.5526%2027.4614%2011.5699%2025.87M24.9999%2011.25C24.9999%2012.5761%2024.4731%2013.8479%2023.5354%2014.7855C22.5977%2015.7232%2021.326%2016.25%2019.9999%2016.25C18.6738%2016.25%2017.402%2015.7232%2016.4644%2014.7855C15.5267%2013.8479%2014.9999%2012.5761%2014.9999%2011.25C14.9999%209.92392%2015.5267%208.65215%2016.4644%207.71447C17.402%206.77678%2018.6738%206.25%2019.9999%206.25C21.326%206.25%2022.5977%206.77678%2023.5354%207.71447C24.4731%208.65215%2024.9999%209.92392%2024.9999%2011.25ZM34.9999%2016.25C34.9999%2016.7425%2034.9029%2017.2301%2034.7144%2017.6851C34.526%2018.14%2034.2498%2018.5534%2033.9015%2018.9016C33.5533%2019.2499%2033.1399%2019.5261%2032.685%2019.7145C32.23%2019.903%2031.7423%2020%2031.2499%2020C30.7574%2020%2030.2698%2019.903%2029.8148%2019.7145C29.3599%2019.5261%2028.9465%2019.2499%2028.5982%2018.9016C28.25%2018.5534%2027.9738%2018.14%2027.7853%2017.6851C27.5969%2017.2301%2027.4999%2016.7425%2027.4999%2016.25C27.4999%2015.2554%2027.895%2014.3016%2028.5982%2013.5983C29.3015%2012.8951%2030.2553%2012.5%2031.2499%2012.5C32.2445%2012.5%2033.1983%2012.8951%2033.9015%2013.5983C34.6048%2014.3016%2034.9999%2015.2554%2034.9999%2016.25ZM12.4999%2016.25C12.4999%2016.7425%2012.4029%2017.2301%2012.2144%2017.6851C12.026%2018.14%2011.7498%2018.5534%2011.4015%2018.9016C11.0533%2019.2499%2010.6399%2019.5261%2010.185%2019.7145C9.72999%2019.903%209.24235%2020%208.74989%2020C8.25744%2020%207.7698%2019.903%207.31483%2019.7145C6.85986%2019.5261%206.44646%2019.2499%206.09824%2018.9016C5.75002%2018.5534%205.4738%2018.14%205.28535%2017.6851C5.09689%2017.2301%204.99989%2016.7425%204.99989%2016.25C4.99989%2015.2554%205.39498%2014.3016%206.09824%2013.5983C6.8015%2012.8951%207.75533%2012.5%208.74989%2012.5C9.74446%2012.5%2010.6983%2012.8951%2011.4015%2013.5983C12.1048%2014.3016%2012.4999%2015.2554%2012.4999%2016.25Z'%20stroke='%23FF8AB2'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+            width="40"
+          />
+          <p
+            class="
+        text-center text-sora-heading-medium font-light
+        text-secondary-foreground
+        sm:text-sora-heading-large
+        xl:text-sora-heading-xlarge
+      "
+          >
+            60
+            %
+          </p>
+          <p
+            class="
+        max-w-61 text-center font-roboto font-light
+        xl:text-roboto-text-large
+      "
+          >
+            of maintainers are not paid for their work
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="mb-40 bg-background px-4 text-primary-foreground"
+  >
+    <div
+      class="flex flex-col items-center gap-16"
+    >
+      <div
+        class="flex flex-col items-center gap-4"
+      >
+        <h1
+          class="
+            text-center font-sora text-sora-heading-medium
+            md:text-sora-heading-large md:font-light
+            lg:text-sora-heading-xlarge
+            xl:text-sora-heading-xxlarge
+          "
+        >
+          Do You Remember
+           
+          <span
+            class="text-secondary-foreground"
+          >
+            Log4Shell?
+          </span>
+        </h1>
+        <p
+          class="
+            text-center font-roboto text-roboto-text-small font-light
+            text-primary-grey
+            md:max-w-180 md:text-roboto-text-medium
+          "
+        >
+          In December 2021, Log4Shell (CVE-2021-44228) exposed millions of Java-based systems worldwide. A single logging library triggered a global cybersecurity crisis with catastrophic consequences.
+        </p>
+      </div>
+      <div
+        class="
+          flex w-full max-w-328 flex-col items-center gap-10 px-20
+          md:flex-row md:justify-center md:gap-20
+        "
+      >
+        <div
+          class="
+      flex flex-col gap-4 text-center font-sora
+      md:max-w-45 md:text-left
+      xl:max-w-82
+    "
+        >
+          <img
+            alt="Reputational Damage Icon"
+            class="self-center md:self-start"
+            height="40"
+            src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M34.9999%2018.3333C34.5579%2018.3333%2034.134%2018.5089%2033.8214%2018.8215C33.5088%2019.134%2033.3332%2019.558%2033.3332%2020V24.3166L22.8499%2013.8167C22.695%2013.6604%2022.5106%2013.5364%2022.3075%2013.4518C22.1044%2013.3672%2021.8866%2013.3237%2021.6666%2013.3237C21.4465%2013.3237%2021.2287%2013.3672%2021.0256%2013.4518C20.8225%2013.5364%2020.6382%2013.6604%2020.4832%2013.8167L14.9999%2019.3167L6.18324%2010.4833C5.8694%2010.1695%205.44374%209.99316%204.9999%209.99316C4.55607%209.99316%204.13041%2010.1695%203.81657%2010.4833C3.50273%2010.7972%203.32642%2011.2228%203.32642%2011.6667C3.32642%2012.1105%203.50273%2012.5361%203.81657%2012.85L13.8166%2022.85C13.9715%2023.0062%2014.1558%2023.1302%2014.3589%2023.2148C14.562%2023.2994%2014.7799%2023.343%2014.9999%2023.343C15.2199%2023.343%2015.4378%2023.2994%2015.6409%2023.2148C15.844%2023.1302%2016.0283%2023.0062%2016.1832%2022.85L21.6666%2017.35L30.9832%2026.6666H26.6666C26.2245%2026.6666%2025.8006%2026.8422%2025.4881%2027.1548C25.1755%2027.4674%2024.9999%2027.8913%2024.9999%2028.3333C24.9999%2028.7753%2025.1755%2029.1993%2025.4881%2029.5118C25.8006%2029.8244%2026.2245%2030%2026.6666%2030H34.9999C35.2177%2029.9973%2035.4329%2029.9521%2035.6332%2029.8666C36.0405%2029.6975%2036.3641%2029.3739%2036.5332%2028.9666C36.6186%2028.7663%2036.6639%2028.5511%2036.6666%2028.3333V20C36.6666%2019.558%2036.491%2019.134%2036.1784%2018.8215C35.8659%2018.5089%2035.4419%2018.3333%2034.9999%2018.3333Z'%20fill='%23FF8AB2'/%3e%3c/svg%3e"
+            width="40"
+          />
+          <h1
+            class="
+        text-sora-heading-small text-secondary-foreground
+        xl:text-sora-heading-large
+      "
+          >
+            Reputational Damage
+          </h1>
+          <ul
+            class="
+              flex flex-col items-center gap-4 font-roboto font-light
+              md:items-start
+            "
+          >
+            <li>
+              Damaged brand reputation.
+            </li>
+            <li>
+              Consumer trust erosion.
+            </li>
+            <li>
+              Negative press and public scrutiny.
+            </li>
+          </ul>
+        </div>
+        <div
+          class="
+      flex flex-col gap-4 text-center font-sora
+      md:max-w-45 md:text-left
+      xl:max-w-82
+    "
+        >
+          <img
+            alt="Financial Devastation Icon"
+            class="self-center md:self-start"
+            height="40"
+            src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M5%2020C5%2021.9698%205.38799%2023.9204%206.14181%2025.7403C6.89563%2027.5601%208.00052%2029.2137%209.3934%2030.6066C10.7863%2031.9995%2012.4399%2033.1044%2014.2597%2033.8582C16.0796%2034.612%2018.0302%2035%2020%2035C21.9698%2035%2023.9204%2034.612%2025.7403%2033.8582C27.5601%2033.1044%2029.2137%2031.9995%2030.6066%2030.6066C31.9995%2029.2137%2033.1044%2027.5601%2033.8582%2025.7403C34.612%2023.9204%2035%2021.9698%2035%2020C35%2018.0302%2034.612%2016.0796%2033.8582%2014.2597C33.1044%2012.4399%2031.9995%2010.7863%2030.6066%209.3934C29.2137%208.00052%2027.5601%206.89563%2025.7403%206.14181C23.9204%205.38799%2021.9698%205%2020%205C18.0302%205%2016.0796%205.38799%2014.2597%206.14181C12.4399%206.89563%2010.7863%208.00052%209.3934%209.3934C8.00052%2010.7863%206.89563%2012.4399%206.14181%2014.2597C5.38799%2016.0796%205%2018.0302%205%2020Z'%20stroke='%23FF8AB2'%20stroke-width='3'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M24.6667%2015C24.3647%2014.4762%2023.9261%2014.0445%2023.3976%2013.7509C22.8692%2013.4573%2022.2708%2013.313%2021.6667%2013.3333H18.3333C17.4493%2013.3333%2016.6014%2013.6845%2015.9763%2014.3096C15.3512%2014.9347%2015%2015.7826%2015%2016.6666C15%2017.5507%2015.3512%2018.3985%2015.9763%2019.0236C16.6014%2019.6488%2017.4493%2020%2018.3333%2020H21.6667C22.5507%2020%2023.3986%2020.3511%2024.0237%2020.9763C24.6488%2021.6014%2025%2022.4492%2025%2023.3333C25%2024.2173%2024.6488%2025.0652%2024.0237%2025.6903C23.3986%2026.3154%2022.5507%2026.6666%2021.6667%2026.6666H18.3333C17.7292%2026.687%2017.1308%2026.5426%2016.6024%2026.249C16.0739%2025.9555%2015.6353%2025.5237%2015.3333%2025M20%2011.6666V28.3333'%20stroke='%23FF8AB2'%20stroke-width='3'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+            width="40"
+          />
+          <h1
+            class="
+        text-sora-heading-small text-secondary-foreground
+        xl:text-sora-heading-large
+      "
+          >
+            Financial Devastation
+          </h1>
+          <ul
+            class="
+              flex flex-col items-center gap-4 font-roboto font-light
+              md:items-start
+            "
+          >
+            <li>
+              <b>
+                $700M+
+              </b>
+               legal exposure established.
+            </li>
+            <li>
+              <b>
+                $90,000+
+              </b>
+               average direct cost per breach
+            </li>
+            <li>
+              Massive overtime for 24/7 “war rooms”.
+            </li>
+          </ul>
+        </div>
+        <div
+          class="
+      flex flex-col gap-4 text-center font-sora
+      md:max-w-45 md:text-left
+      xl:max-w-82
+    "
+        >
+          <img
+            alt="Operational Paralysis Icon"
+            class="self-center md:self-start"
+            height="40"
+            src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M16.6668%2011.6667C16.2248%2011.6667%2015.8009%2011.8423%2015.4883%2012.1549C15.1758%2012.4674%2015.0002%2012.8913%2015.0002%2013.3334V26.6667C15.0002%2027.1087%2015.1758%2027.5327%2015.4883%2027.8452C15.8009%2028.1578%2016.2248%2028.3334%2016.6668%2028.3334C17.1089%2028.3334%2017.5328%2028.1578%2017.8453%2027.8452C18.1579%2027.5327%2018.3335%2027.1087%2018.3335%2026.6667V13.3334C18.3335%2012.8913%2018.1579%2012.4674%2017.8453%2012.1549C17.5328%2011.8423%2017.1089%2011.6667%2016.6668%2011.6667ZM20.0002%203.33337C16.7038%203.33337%2013.4815%204.31086%2010.7407%206.14221C7.99985%207.97357%205.86364%2010.5765%204.60218%2013.622C3.34072%2016.6674%203.01066%2020.0185%203.65375%2023.2515C4.29684%2026.4846%205.88418%2029.4543%208.21506%2031.7852C10.5459%2034.116%2013.5156%2035.7034%2016.7487%2036.3465C19.9817%2036.9896%2023.3328%2036.6595%2026.3782%2035.398C29.4237%2034.1366%2032.0266%2032.0004%2033.858%2029.2595C35.6894%2026.5187%2036.6668%2023.2964%2036.6668%2020C36.6668%2017.8113%2036.2357%2015.6441%2035.3982%2013.622C34.5606%2011.5999%2033.3329%209.76257%2031.7853%208.21493C30.2376%206.66728%2028.4003%205.43963%2026.3782%204.60205C24.3561%203.76447%2022.1889%203.33337%2020.0002%203.33337ZM20.0002%2033.3334C17.3631%2033.3334%2014.7852%2032.5514%2012.5926%2031.0863C10.3999%2029.6212%208.69095%2027.5388%207.68178%2025.1025C6.67261%2022.6661%206.40856%2019.9853%206.92303%2017.3988C7.4375%2014.8124%208.70738%2012.4367%2010.5721%2010.572C12.4368%208.70725%2014.8126%207.43737%2017.399%206.9229C19.9854%206.40843%2022.6663%206.67248%2025.1026%207.68165C27.539%208.69082%2029.6213%2010.3998%2031.0864%2012.5924C32.5515%2014.7851%2033.3335%2017.363%2033.3335%2020C33.3335%2023.5363%2031.9287%2026.9276%2029.4283%2029.4281C26.9278%2031.9286%2023.5364%2033.3334%2020.0002%2033.3334ZM23.3335%2011.6667C22.8915%2011.6667%2022.4676%2011.8423%2022.155%2012.1549C21.8424%2012.4674%2021.6668%2012.8913%2021.6668%2013.3334V26.6667C21.6668%2027.1087%2021.8424%2027.5327%2022.155%2027.8452C22.4676%2028.1578%2022.8915%2028.3334%2023.3335%2028.3334C23.7755%2028.3334%2024.1995%2028.1578%2024.512%2027.8452C24.8246%2027.5327%2025.0002%2027.1087%2025.0002%2026.6667V13.3334C25.0002%2012.8913%2024.8246%2012.4674%2024.512%2012.1549C24.1995%2011.8423%2023.7755%2011.6667%2023.3335%2011.6667Z'%20fill='%23FF8AB2'/%3e%3c/svg%3e"
+            width="40"
+          />
+          <h1
+            class="
+        text-sora-heading-small text-secondary-foreground
+        xl:text-sora-heading-large
+      "
+          >
+            Operational Paralysis
+          </h1>
+          <ul
+            class="
+              flex flex-col items-center gap-4 font-roboto font-light
+              md:items-start
+            "
+          >
+            <li>
+              <b>
+                Up to 3,300 developer hours lost.
+              </b>
+            </li>
+            <li>
+              All innovation halted.
+            </li>
+            <li>
+              29% recurrence rate forced costly rework cycles.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h3
+        class="
+          text-center font-sora text-sora-heading-xsmall font-light
+          text-primary-grey
+          md:text-sora-heading-small
+        "
+      >
+        Don’t let your organization be the next case study.
+      </h3>
+    </div>
+  </div>
+  <div
+    class="mb-40 bg-background px-4 text-primary-foreground"
+  >
+    <div
+      class="flex flex-col items-center gap-16 px-4"
+    >
+      <h1
+        class="
+          text-center font-sora text-sora-heading-medium
+          md:text-sora-heading-large md:font-light
+          lg:text-sora-heading-xlarge
+          xl:text-sora-heading-xxlarge
+        "
+      >
+        Let Us Protect You
+      </h1>
+      <div
+        class="
+          flex flex-col items-center justify-center gap-12
+          md:flex-row md:gap-8
+        "
+      >
+        <dl
+          class="
+      flex list-none flex-col gap-10
+      [counter-reset:feature]
+      md:gap-20
+    "
+        >
+          <li
+            class="[counter-increment:feature]"
+          >
+            <div
+              class="flex flex-col gap-1"
+            >
+              <dt
+                class="
+          flex flex-row gap-2 font-sora text-sora-heading-small font-light
+          before:font-sora before:text-sora-heading-small before:font-light
+          before:text-secondary-foreground-2
+          md:gap-4 md:text-sora-heading-medium
+          md:before:text-sora-heading-medium
+          lg:text-sora-heading-large lg:before:text-sora-heading-large
+          xl:text-sora-heading-xlarge xl:before:text-sora-heading-xlarge
+          
+            before:[content:counter(feature,decimal-leading-zero)]
+            md:before:[content:counter(feature,decimal-leading-zero)]
+            lg:before:[content:counter(feature,decimal-leading-zero)]
+            xl:before:[content:counter(feature,decimal-leading-zero)]
+          
+          items-center justify-center
+          md:items-start md:justify-normal
+        "
+              >
+                <h1>
+                  We Analyze
+                </h1>
+              </dt>
+              <dd
+                class="
+          max-w-218 text-center font-roboto text-roboto-text-small font-light
+          text-subtitle
+          sm:text-roboto-text-regular
+          md:text-left md:text-roboto-text-medium
+          lg:text-roboto-text-large
+        "
+              >
+                We score your open source dependencies, measuring community strength, maintainer expertise, and supply chain integrity.
+              </dd>
+            </div>
+          </li>
+          <li
+            class="[counter-increment:feature]"
+          >
+            <div
+              class="flex flex-col gap-1"
+            >
+              <dt
+                class="
+          flex flex-row gap-2 font-sora text-sora-heading-small font-light
+          before:font-sora before:text-sora-heading-small before:font-light
+          before:text-secondary-foreground-2
+          md:gap-4 md:text-sora-heading-medium
+          md:before:text-sora-heading-medium
+          lg:text-sora-heading-large lg:before:text-sora-heading-large
+          xl:text-sora-heading-xlarge xl:before:text-sora-heading-xlarge
+          
+            before:[content:counter(feature,decimal-leading-zero)]
+            md:before:[content:counter(feature,decimal-leading-zero)]
+            lg:before:[content:counter(feature,decimal-leading-zero)]
+            xl:before:[content:counter(feature,decimal-leading-zero)]
+          
+          items-center justify-center
+          md:items-start md:justify-normal
+        "
+              >
+                <h1>
+                  We Alert
+                </h1>
+              </dt>
+              <dd
+                class="
+          max-w-218 text-center font-roboto text-roboto-text-small font-light
+          text-subtitle
+          sm:text-roboto-text-regular
+          md:text-left md:text-roboto-text-medium
+          lg:text-roboto-text-large
+        "
+              >
+                We send actionable, real-time alerts—detecting hidden risks, mapping CVEs, and clarifying exploitability with VEX to eliminate false positives.
+              </dd>
+            </div>
+          </li>
+          <li
+            class="[counter-increment:feature]"
+          >
+            <div
+              class="flex flex-col gap-1"
+            >
+              <dt
+                class="
+          flex flex-row gap-2 font-sora text-sora-heading-small font-light
+          before:font-sora before:text-sora-heading-small before:font-light
+          before:text-secondary-foreground-2
+          md:gap-4 md:text-sora-heading-medium
+          md:before:text-sora-heading-medium
+          lg:text-sora-heading-large lg:before:text-sora-heading-large
+          xl:text-sora-heading-xlarge xl:before:text-sora-heading-xlarge
+          
+            before:[content:counter(feature,decimal-leading-zero)]
+            md:before:[content:counter(feature,decimal-leading-zero)]
+            lg:before:[content:counter(feature,decimal-leading-zero)]
+            xl:before:[content:counter(feature,decimal-leading-zero)]
+          
+          items-center justify-center
+          md:items-start md:justify-normal
+        "
+              >
+                <h1>
+                  We Partner
+                </h1>
+              </dt>
+              <dd
+                class="
+          max-w-218 text-center font-roboto text-roboto-text-small font-light
+          text-subtitle
+          sm:text-roboto-text-regular
+          md:text-left md:text-roboto-text-medium
+          lg:text-roboto-text-large
+        "
+              >
+                For your most critical dependencies, we provide direct support, collaborating with maintainers, hardening projects, and ensuring long-term security and sustainability.
+              </dd>
+            </div>
+          </li>
+        </dl>
+        <div
+          class="
+        flex max-w-80 flex-col items-center rounded-md border border-gray-700
+        p-2 pb-4
+        md:h-134
+      "
+        >
+          <h3
+            class="font-sora text-sora-heading-small font-light"
+          >
+            RISK SCORE
+          </h3>
+          <div
+            class="relative h-max w-max"
+          >
+            <svg
+              class="transform"
+              height="100"
+              viewBox="0 0 180 100"
+              width="180"
+            >
+              <defs>
+                <lineargradient
+                  id="gradient"
+                  x1="0%"
+                  x2="100%"
+                  y1="0%"
+                  y2="0%"
+                >
+                  <stop
+                    offset="0%"
+                    stop-color="#FF0000"
+                  />
+                  <stop
+                    offset="10%"
+                    stop-color="#FF7E4B"
+                  />
+                  <stop
+                    offset="50%"
+                    stop-color="#F6FF45"
+                  />
+                  <stop
+                    offset="100%"
+                    stop-color="#F6FF45"
+                  />
+                </lineargradient>
+              </defs>
+              <path
+                d="M 10 90 A 80 80 0 0 1 170 90"
+                fill="none"
+                stroke="#5473A2"
+                stroke-linecap="round"
+                stroke-width="20"
+              />
+              <path
+                class="transition-all duration-500 ease-in-out"
+                d="M 10 90 A 80 80 0 0 1 170 90"
+                fill="none"
+                stroke="url(#gradient)"
+                stroke-dasharray="251.32741228718345"
+                stroke-dashoffset="110.58406140636072"
+                stroke-linecap="round"
+                stroke-width="10"
+              />
+            </svg>
+            <div
+              class="
+          absolute top-8 flex flex-col items-center gap-2 font-roboto text-lg
+          font-light
+        "
+            >
+              <p>
+                SCORE
+              </p>
+              <b
+                class="-mt-2 text-center text-roboto-text-large font-bold"
+              >
+                56
+                %
+              </b>
+              <div
+                class="
+            relative flex w-46 flex-row justify-between text-center font-roboto
+          "
+              >
+                <p>
+                  0
+                </p>
+                <p
+                  class="
+              absolute top-2 left-17 h-4 w-13 rounded-lg p-1 font-sora
+              text-[6px] font-light
+            "
+                  style="background-color: rgb(246, 255, 69); color: black;"
+                >
+                  Medium Risk
+                </p>
+                <p>
+                  100
+                </p>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div
+            class="px-4 pt-6 font-roboto"
+          >
+            <h4
+              class="font-bold"
+            >
+              Why This Score Matters
+            </h4>
+            <ul
+              class="
+      flex list-none flex-col gap-1 text-roboto-text-tiny text-primary-grey
+    "
+            >
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="."
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='5'%20cy='5'%20r='5'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  Supply chain attacks increased 650% in 2022
+                </p>
+              </li>
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="."
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='5'%20cy='5'%20r='5'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  70% of vulnerabilities are in dependencies, not your code
+                </p>
+              </li>
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="."
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='5'%20cy='5'%20r='5'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  Medium risk dependencies need active monitoring
+                </p>
+              </li>
+            </ul>
+            <br />
+            <h4
+              class="font-bold"
+            >
+              What We Analyze
+            </h4>
+            <ul
+              class="
+      flex list-none flex-col gap-1 text-roboto-text-tiny text-primary-grey
+    "
+            >
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="Community Health Icon"
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='14'%20height='14'%20viewBox='0%200%2014%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9.33317%209.91661V11.0833H1.1665V9.91661C1.1665%209.91661%201.1665%207.58327%205.24984%207.58327C9.33317%207.58327%209.33317%209.91661%209.33317%209.91661ZM7.2915%204.37494C7.2915%203.97114%207.17176%203.5764%206.94742%203.24065C6.72308%202.9049%206.40422%202.64322%206.03115%202.48869C5.65808%202.33416%205.24757%202.29373%204.85153%202.3725C4.45548%202.45128%204.09169%202.64573%203.80616%202.93126C3.52063%203.2168%203.32618%203.58059%203.2474%203.97663C3.16862%204.37268%203.20905%204.78319%203.36358%205.15625C3.51811%205.52932%203.7798%205.84818%204.11555%206.07252C4.4513%206.29687%204.84603%206.41661%205.24984%206.41661C5.79132%206.41661%206.31063%206.2015%206.69351%205.81862C7.0764%205.43573%207.2915%204.91642%207.2915%204.37494ZM9.29817%207.58327C9.65677%207.86079%209.9502%208.21353%2010.1578%208.61665C10.3654%209.01978%2010.4822%209.46351%2010.4998%209.91661V11.0833H12.8332V9.91661C12.8332%209.91661%2012.8332%207.79911%209.29817%207.58327ZM8.74984%202.33327C8.34838%202.33141%207.9558%202.45142%207.624%202.67744C7.97834%203.17254%208.16887%203.76611%208.16887%204.37494C8.16887%204.98377%207.97834%205.57734%207.624%206.07244C7.9558%206.29846%208.34838%206.41847%208.74984%206.41661C9.29132%206.41661%209.81063%206.2015%2010.1935%205.81862C10.5764%205.43573%2010.7915%204.91642%2010.7915%204.37494C10.7915%203.83346%2010.5764%203.31415%2010.1935%202.93126C9.81063%202.54838%209.29132%202.33327%208.74984%202.33327Z'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  Community Health
+                </p>
+              </li>
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="Security Practices Icon"
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='14'%20height='14'%20viewBox='0%200%2014%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M12.25%206.41658C12.25%209.65409%2010.01%2012.6816%207%2013.4166C3.99%2012.6816%201.75%209.65409%201.75%206.41658V2.91659L7%200.583252L12.25%202.91659V6.41658ZM7%2012.2499C9.1875%2011.6666%2011.0833%209.06492%2011.0833%206.54492V3.67492L7%201.85492L2.91667%203.67492V6.54492C2.91667%209.06492%204.8125%2011.6666%207%2012.2499Z'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  Security Practices
+                </p>
+              </li>
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="Supply Chain Integrity Icon"
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='14'%20height='14'%20viewBox='0%200%2014%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M6.17747%207.82247C6.41664%208.04997%206.41664%208.4233%206.17747%208.6508C5.94997%208.8783%205.57664%208.8783%205.34914%208.6508C4.80277%208.10362%204.4959%207.36197%204.4959%206.58872C4.4959%205.81546%204.80277%205.07382%205.34914%204.52664L7.41414%202.46164C7.96132%201.91527%208.70297%201.6084%209.47622%201.6084C10.2495%201.6084%2010.9911%201.91527%2011.5383%202.46164C12.0847%203.00882%2012.3915%203.75047%2012.3915%204.52372C12.3915%205.29697%2012.0847%206.03862%2011.5383%206.5858L10.6691%207.45497C10.675%206.97664%2010.5991%206.4983%2010.4358%206.0433L10.71%205.7633C10.8736%205.60162%2011.0036%205.40905%2011.0923%205.19676C11.181%204.98448%2011.2266%204.7567%2011.2266%204.52664C11.2266%204.29657%2011.181%204.06879%2011.0923%203.85651C11.0036%203.64422%2010.8736%203.45165%2010.71%203.28997C10.5483%203.1263%2010.3557%202.99635%2010.1434%202.90766C9.93115%202.81897%209.70337%202.7733%209.4733%202.7733C9.24324%202.7733%209.01546%202.81897%208.80317%202.90766C8.59089%202.99635%208.39832%203.1263%208.23664%203.28997L6.17747%205.34914C6.0138%205.51082%205.88385%205.70339%205.79516%205.91567C5.70647%206.12796%205.6608%206.35574%205.6608%206.5858C5.6608%206.81587%205.70647%207.04365%205.79516%207.25593C5.88385%207.46822%206.0138%207.66078%206.17747%207.82247ZM7.82247%205.34914C8.04997%205.12164%208.4233%205.12164%208.6508%205.34914C9.19716%205.89632%209.50404%206.63797%209.50404%207.41122C9.50404%208.18447%209.19716%208.92612%208.6508%209.4733L6.5858%2011.5383C6.03862%2012.0847%205.29697%2012.3915%204.52372%2012.3915C3.75047%2012.3915%203.00882%2012.0847%202.46164%2011.5383C1.91527%2010.9911%201.6084%2010.2495%201.6084%209.47622C1.6084%208.70297%201.91527%207.96132%202.46164%207.41414L3.3308%206.54497C3.32497%207.0233%203.4008%207.50164%203.56414%207.96247L3.28997%208.23664C3.1263%208.39832%202.99635%208.59089%202.90766%208.80317C2.81897%209.01546%202.7733%209.24324%202.7733%209.4733C2.7733%209.70337%202.81897%209.93115%202.90766%2010.1434C2.99635%2010.3557%203.1263%2010.5483%203.28997%2010.71C3.45165%2010.8736%203.64422%2011.0036%203.85651%2011.0923C4.06879%2011.181%204.29657%2011.2266%204.52664%2011.2266C4.7567%2011.2266%204.98448%2011.181%205.19676%2011.0923C5.40905%2011.0036%205.60162%2010.8736%205.7633%2010.71L7.82247%208.6508C7.98614%208.48912%208.11609%208.29655%208.20478%208.08426C8.29347%207.87198%208.33914%207.6442%208.33914%207.41414C8.33914%207.18407%208.29347%206.95629%208.20478%206.74401C8.11609%206.53172%207.98614%206.33915%207.82247%206.17747C7.76581%206.12438%207.72065%206.06023%207.68978%205.989C7.65891%205.91776%207.64298%205.84094%207.64298%205.7633C7.64298%205.68566%207.65891%205.60885%207.68978%205.53761C7.72065%205.46637%207.76581%205.40222%207.82247%205.34914Z'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  Supply Chain Integrity
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="mb-40 bg-background px-4 text-primary-foreground"
+  >
+    <div
+      class="flex flex-col items-center gap-8 pt-10"
+    >
+      <h1
+        class="
+          text-center font-sora text-sora-heading-medium
+          md:text-sora-heading-large md:font-light
+          lg:text-sora-heading-xlarge
+          xl:text-sora-heading-xxlarge
+        "
+      >
+        Don’t Wait For The Next Breach
+      </h1>
+      <p
+        class="
+          text-center font-roboto text-roboto-text-medium font-light
+          md:text-roboto-text-large
+          lg:max-w-193
+        "
+      >
+        We’re here to support your business. Whether you want to learn more about our services, explore collaboration opportunities, or need guidance, our team is ready to help you strengthen your open source security.
+      </p>
+      <div
+        class="
+        relative mt-8 flex max-w-128 flex-col items-center gap-4 rounded-[1rem]
+        border border-gray-700 p-4 pb-8
+        [box-shadow:0px_25px_50px_-12px_rgba(239,77,172,0.25)]
+        md:items-start
+      "
+      >
+        <h2
+          class="
+          text-center font-sora text-sora-heading-small font-light
+          md:text-left md:text-sora-heading-large
+        "
+        >
+          Get In Touch
+        </h2>
+        <p
+          class="
+          text-center font-roboto text-roboto-text-small font-light
+          md:text-left md:text-roboto-text-large
+        "
+        >
+          This is so that we can get in contact with you in case any opportunity comes up
+        </p>
+        <form
+          class="w-full"
+        >
+          <div
+            class="mt-4 flex flex-col gap-3"
+          >
+            <div
+              class="
+                flex flex-col gap-3
+                md:flex-row md:gap-2
+              "
+            >
+              <div
+                class="gap-0 flex grow flex-col"
+                data-slot="form-item"
+              >
+                <div
+                  class="flex flex-col gap-2"
+                >
+                  <label
+                    class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                    data-error="false"
+                    data-slot="form-label"
+                    for="«r0»-form-item"
+                  >
+                    Your Full Name*
+                  </label>
+                  <input
+                    aria-describedby="«r0»-form-item-description"
+                    aria-invalid="false"
+                    class="h-12 w-full min-w-0 rounded-sm border border-gray-700 bg-transparent p-3 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20"
+                    data-slot="form-control"
+                    id="«r0»-form-item"
+                    name="fullName"
+                    placeholder="Your Full Name"
+                  />
+                </div>
+              </div>
+              <div
+                class="gap-0 flex grow flex-col"
+                data-slot="form-item"
+              >
+                <div
+                  class="relative flex flex-col gap-2"
+                >
+                  <label
+                    class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                    data-error="false"
+                    data-slot="form-label"
+                    for="«r1»-form-item"
+                  >
+                    Your Email*
+                  </label>
+                  <input
+                    aria-describedby="«r1»-form-item-description"
+                    aria-invalid="false"
+                    class="h-12 w-full min-w-0 rounded-sm border border-gray-700 bg-transparent p-3 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20"
+                    data-slot="form-control"
+                    id="«r1»-form-item"
+                    name="email"
+                    placeholder="Your Email"
+                    type="email"
+                  />
+                  <img
+                    alt="Email Icon"
+                    class="absolute top-8.5 right-2"
+                    height="24"
+                    src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M19.5%207.8V16.2C19.5%2016.6774%2019.3055%2017.1352%2018.9593%2017.4728C18.6131%2017.8104%2018.1435%2018%2017.6538%2018H5.34615C4.85652%2018%204.38695%2017.8104%204.04073%2017.4728C3.6945%2017.1352%203.5%2016.6774%203.5%2016.2V7.8M19.5%207.8C19.5%207.32261%2019.3055%206.86477%2018.9593%206.52721C18.6131%206.18964%2018.1435%206%2017.6538%206H5.34615C4.85652%206%204.38695%206.18964%204.04073%206.52721C3.6945%206.86477%203.5%207.32261%203.5%207.8M19.5%207.8V7.9944C19.5%208.30172%2019.4194%208.60392%2019.2657%208.87224C19.112%209.14055%2018.8904%209.36603%2018.6221%209.5272L12.4682%2013.2192C12.1771%2013.394%2011.8419%2013.4866%2011.5%2013.4866C11.1581%2013.4866%2010.8229%2013.394%2010.5318%2013.2192L4.37795%209.528C4.10958%209.36683%203.888%209.14135%203.73431%208.87304C3.58063%208.60472%203.49997%208.30252%203.5%207.9952V7.8'%20stroke='%23F5F7FA'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                    width="24"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex grow flex-col gap-2"
+              data-slot="form-item"
+            >
+              <label
+                class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                data-error="false"
+                data-slot="form-label"
+                for="«r2»-form-item"
+              >
+                Your LinkedIn
+              </label>
+              <input
+                aria-describedby="«r2»-form-item-description"
+                aria-invalid="false"
+                class="h-12 w-full min-w-0 rounded-sm border border-gray-700 bg-transparent p-3 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20"
+                data-slot="form-control"
+                id="«r2»-form-item"
+                name="linkedInProfile"
+                placeholder="Your LinkedIn"
+                type="url"
+              />
+            </div>
+            <div
+              class="gap-0 flex grow flex-col"
+              data-slot="form-item"
+            >
+              <div
+                class="flex flex-col gap-2"
+              >
+                <label
+                  class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                  data-error="false"
+                  data-slot="form-label"
+                  for="«r3»-form-item"
+                >
+                  Your Message*
+                </label>
+                <textarea
+                  aria-describedby="«r3»-form-item-description"
+                  aria-invalid="false"
+                  class="flex field-sizing-content min-h-16 w-full rounded-md border border-gray-700 bg-transparent px-3 py-2 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground-2 placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 md:text-sm dark:bg-input/30 dark:aria-invalid:ring-destructive/40 h-25"
+                  data-slot="form-control"
+                  id="«r3»-form-item"
+                  name="message"
+                  placeholder="Enter your message..."
+                />
+              </div>
+            </div>
+            <button
+              class="h-max cursor-pointer rounded-[12px] bg-linear-(--background-gradient) px-4 py-2.5 font-sora font-light disabled:cursor-progress disabled:[filter:grayscale(0.5)] w-35 self-end"
+              type="submit"
+            >
+              Send
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="
+      bg-background px-4 pb-20 font-sora font-light text-primary-foreground
+      md:px-8
+      xl:px-15
+    "
+  >
+    <div
+      class="
+        flex flex-col-reverse gap-4
+        md:flex-row md:justify-between
+      "
+    >
+      <div
+        class="flex flex-col gap-4"
+      >
+        <div
+          class="
+            flex items-center justify-between gap-2 self-center
+            md:self-start
+          "
+        >
+          <img
+            alt="Open Source Economy"
+            class="h-11 w-17"
+            src="/src/lib/icons/open-source-logo.svg"
+          />
+          <h4
+            class="max-w-47 text-left text-sora-heading-small"
+          >
+            Open Source Economy
+          </h4>
+        </div>
+        <p
+          class="
+            max-w-156 font-roboto text-sora-text-small font-light
+            text-primary-grey
+          "
+        >
+          Open Source Economy is a non-profit organization dedicated to helping developers keep contributing to open source while receiving funding for their projects.
+        </p>
+      </div>
+      <div
+        class="
+          hidden flex-col place-items-start gap-2
+          lg:flex
+        "
+      >
+        <h5
+          class="text-left text-sora-heading-small"
+        >
+          Company
+        </h5>
+        <button>
+          Button
+        </button>
+        <button>
+          Button
+        </button>
+      </div>
+      <div
+        class="
+          hidden flex-col place-items-start gap-2
+          lg:flex
+        "
+      >
+        <h5
+          class="text-left text-sora-heading-small"
+        >
+          Resources
+        </h5>
+        <button>
+          Button
+        </button>
+        <button>
+          Button
+        </button>
+        <button>
+          Button
+        </button>
+      </div>
+      <div
+        class="flex flex-col gap-4"
+      >
+        <div
+          class="flex flex-row justify-around px-18"
+        >
+          <a
+            href="https://www.linkedin.com/company/open-source-economy"
+            rel="no-referrer no-opener noreferrer"
+            target="_blank"
+          >
+            <img
+              class=""
+              height="24"
+              src="data:image/svg+xml,%3csvg%20width='25'%20height='24'%20viewBox='0%200%2025%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M19.5%203C20.0304%203%2020.5391%203.21071%2020.9142%203.58579C21.2893%203.96086%2021.5%204.46957%2021.5%205V19C21.5%2019.5304%2021.2893%2020.0391%2020.9142%2020.4142C20.5391%2020.7893%2020.0304%2021%2019.5%2021H5.5C4.96957%2021%204.46086%2020.7893%204.08579%2020.4142C3.71071%2020.0391%203.5%2019.5304%203.5%2019V5C3.5%204.46957%203.71071%203.96086%204.08579%203.58579C4.46086%203.21071%204.96957%203%205.5%203H19.5ZM19%2018.5V13.2C19%2012.3354%2018.6565%2011.5062%2018.0452%2010.8948C17.4338%2010.2835%2016.6046%209.94%2015.74%209.94C14.89%209.94%2013.9%2010.46%2013.42%2011.24V10.13H10.63V18.5H13.42V13.57C13.42%2012.8%2014.04%2012.17%2014.81%2012.17C15.1813%2012.17%2015.5374%2012.3175%2015.7999%2012.5801C16.0625%2012.8426%2016.21%2013.1987%2016.21%2013.57V18.5H19ZM7.38%208.56C7.82556%208.56%208.25288%208.383%208.56794%208.06794C8.883%207.75288%209.06%207.32556%209.06%206.88C9.06%205.95%208.31%205.19%207.38%205.19C6.93178%205.19%206.50193%205.36805%206.18499%205.68499C5.86805%206.00193%205.69%206.43178%205.69%206.88C5.69%207.81%206.45%208.56%207.38%208.56ZM8.77%2018.5V10.13H6V18.5H8.77Z'%20fill='white'/%3e%3c/svg%3e"
+              width="24"
+            />
+          </a>
+          <a
+            href="https://x.com/OS_Economy"
+            rel="no-referrer no-opener noreferrer"
+            target="_blank"
+          >
+            <img
+              class=""
+              height="24"
+              src="data:image/svg+xml,%3csvg%20width='25'%20height='24'%20viewBox='0%200%2025%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10.988%2014.651L15.75%2021H22.75L14.892%2010.522L21.43%203H18.78L13.663%208.886L9.25%203H2.25L9.76%2013.015L2.82%2021H5.47L10.988%2014.651ZM16.75%2019L6.25%205H8.25L18.75%2019H16.75Z'%20fill='white'/%3e%3c/svg%3e"
+              width="24"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/@OpenSourceEconomy-hn3tg"
+            rel="no-referrer no-opener noreferrer"
+            target="_blank"
+          >
+            <img
+              class=""
+              height="24"
+              src="data:image/svg+xml,%3csvg%20width='25'%20height='24'%20viewBox='0%200%2025%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10.5%2015L15.69%2012L10.5%209V15ZM22.06%207.17C22.19%207.64%2022.28%208.27%2022.34%209.07C22.41%209.87%2022.44%2010.56%2022.44%2011.16L22.5%2012C22.5%2014.19%2022.34%2015.8%2022.06%2016.83C21.81%2017.73%2021.23%2018.31%2020.33%2018.56C19.86%2018.69%2019%2018.78%2017.68%2018.84C16.38%2018.91%2015.19%2018.94%2014.09%2018.94L12.5%2019C8.31%2019%205.7%2018.84%204.67%2018.56C3.77%2018.31%203.19%2017.73%202.94%2016.83C2.81%2016.36%202.72%2015.73%202.66%2014.93C2.59%2014.13%202.56%2013.44%202.56%2012.84L2.5%2012C2.5%209.81%202.66%208.2%202.94%207.17C3.19%206.27%203.77%205.69%204.67%205.44C5.14%205.31%206%205.22%207.32%205.16C8.62%205.09%209.81%205.06%2010.91%205.06L12.5%205C16.69%205%2019.3%205.16%2020.33%205.44C21.23%205.69%2021.81%206.27%2022.06%207.17Z'%20fill='white'/%3e%3c/svg%3e"
+              width="24"
+            />
+          </a>
+        </div>
+        <form
+          class="relative flex flex-row"
+        >
+          <div
+            class="
+            flex w-full flex-col
+            md:min-w-77
+          "
+          >
+            <div
+              class="gap-0 flex grow flex-col"
+              data-slot="form-item"
+            >
+              <div
+                class="relative flex flex-col gap-2"
+              >
+                <label
+                  class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                  data-error="false"
+                  data-slot="form-label"
+                  for="«r4»-form-item"
+                >
+                  Newsletter
+                </label>
+                <input
+                  aria-describedby="«r4»-form-item-description"
+                  aria-invalid="false"
+                  class="h-12 w-full min-w-0 rounded-sm border border-gray-700 bg-transparent p-3 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20"
+                  data-slot="form-control"
+                  id="«r4»-form-item"
+                  name="email"
+                  placeholder="Enter Your Email"
+                  type="email"
+                />
+              </div>
+            </div>
+            <p
+              class="
+              font-roboto text-[12px] font-light
+              
+            "
+            />
+          </div>
+          <button
+            class="cursor-pointer bg-linear-(--background-gradient) px-4 font-sora font-light disabled:cursor-progress disabled:[filter:grayscale(0.5)] absolute top-7 right-2 h-9 w-35 rounded-[12px] py-0"
+            type="submit"
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+    <hr
+      class="mt-8 mb-2"
+    />
+    <div
+      class="
+        flex flex-col justify-between gap-1 font-roboto text-roboto-text-small
+        font-light
+        md:flex-row md:gap-0 md:text-roboto-text-regular
+      "
+    >
+      <p>
+        © Open Source Economy - Non profit organisation -
+        <span
+          class="mr-2 ml-3"
+        >
+          CHE-440.058.692
+        </span>
+        Switzerland
+      </p>
+      <p>
+        Terms Of Service | Privacy Policy
+      </p>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`PrimarySection > renders without crashing 1`] = `
+<div>
+  <header
+    class="
+        sticky top-0 z-100 flex h-23 flex-row justify-between bg-background px-4
+        font-sora font-light text-primary-foreground
+      "
+  >
+    <div
+      class="flex items-center justify-between gap-2"
+    >
+      <img
+        alt="Open Source Economy"
+        class="h-11 w-17"
+        src="/src/lib/icons/open-source-logo.svg"
+      />
+      <h1
+        class="
+            hidden w-47 text-left text-sora-heading-small
+            lg:block
+          "
+      >
+        Open Source Economy
+      </h1>
+    </div>
+    <div
+      class="flex flex-row items-center gap-8 font-roboto"
+    >
+      <div
+        class="
+      hidden
+      lg:block
+    "
+      >
+        Home
+      </div>
+      <div
+        class="
+      hidden
+      lg:block
+    "
+      >
+        About Us
+      </div>
+      <div
+        class="
+      hidden
+      lg:block
+    "
+      >
+        Solutions
+      </div>
+      <div
+        class="
+      hidden
+      lg:block
+    "
+      >
+        Contact Us
+      </div>
+    </div>
+    <button
+      class="h-max cursor-pointer rounded-[12px] bg-linear-(--background-gradient) px-4 py-2.5 font-sora font-light disabled:cursor-progress disabled:[filter:grayscale(0.5)] w-35 self-center"
+    >
+      Sign In
+    </button>
+  </header>
+  <div
+    class="mb-40 bg-background px-4 text-primary-foreground"
+  >
+    <div
+      class="flex flex-col items-center gap-16 pt-20"
+    >
+      <div
+        class="flex flex-col items-center gap-4"
+      >
+        <h1
+          class="
+            max-w-250 text-center font-sora text-sora-heading-medium
+            md:text-sora-heading-large md:font-light
+            lg:text-sora-heading-xlarge
+            xl:text-sora-heading-xxlarge
+          "
+        >
+          What’s The Cost Of Using Open Source Blindly?
+        </h1>
+        <p
+          class="
+            text-center font-roboto text-roboto-text-small font-light
+            text-primary-grey
+            md:max-w-180 md:text-roboto-text-medium
+          "
+        >
+          Open source is powerful — but it also opens the door to supply chain attacks. 
+          <br />
+          Too often, essential libraries are maintained by just a handful of volunteers without the resources to keep them secure.
+        </p>
+      </div>
+      <div
+        class="
+          flex flex-col gap-8
+          md:flex-row md:justify-center
+          lg:gap-16
+        "
+      >
+        <div
+          class="flex flex-col items-center font-sora"
+        >
+          <img
+            alt="Open Source Projects Stats"
+            class=""
+            height="40"
+            src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M4.80005%2017.9333H19.7334M5.94877%204.06665V17.9333M13.9898%204.06665V17.9333M18.5847%207.53332V17.9333M8.2462%206.95554H8.82056M8.2462%209.26665H8.82056M8.2462%2011.5778H8.82056M11.118%206.95554H11.6924M11.118%209.26665H11.6924M11.118%2011.5778H11.6924M8.2462%2017.9333V15.3333C8.2462%2014.8549%208.63217%2014.4666%209.10774%2014.4666H10.8308C11.3064%2014.4666%2011.6924%2014.8549%2011.6924%2015.3333V17.9333M5.37441%204.06665H14.5642M13.9898%207.53332H19.159M16.2872%2010.4222H16.2934V10.4284H16.2872V10.4222ZM16.2872%2012.7333H16.2934V12.7395H16.2872V12.7333ZM16.2872%2015.0444H16.2934V15.0506H16.2872V15.0444Z'%20stroke='%23FF8AB2'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+            width="40"
+          />
+          <p
+            class="
+        text-center text-sora-heading-medium font-light
+        text-secondary-foreground
+        sm:text-sora-heading-large
+        xl:text-sora-heading-xlarge
+      "
+          >
+            90
+            %
+          </p>
+          <p
+            class="
+        max-w-61 text-center font-roboto font-light
+        xl:text-roboto-text-large
+      "
+          >
+            of companies are using open source projects
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center font-sora"
+        >
+          <img
+            alt="Code Stats"
+            class=""
+            height="40"
+            src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.25%2012.5L16.25%2016.25L11.25%2020M18.75%2020H23.75M8.75%2033.75H31.25C32.2446%2033.75%2033.1984%2033.3549%2033.9016%2032.6516C34.6049%2031.9484%2035%2030.9946%2035%2030V10C35%209.00544%2034.6049%208.05161%2033.9016%207.34835C33.1984%206.64509%2032.2446%206.25%2031.25%206.25H8.75C7.75544%206.25%206.80161%206.64509%206.09835%207.34835C5.39509%208.05161%205%209.00544%205%2010V30C5%2030.9946%205.39509%2031.9484%206.09835%2032.6516C6.80161%2033.3549%207.75544%2033.75%208.75%2033.75Z'%20stroke='%23FF8AB2'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+            width="40"
+          />
+          <p
+            class="
+        text-center text-sora-heading-medium font-light
+        text-secondary-foreground
+        sm:text-sora-heading-large
+        xl:text-sora-heading-xlarge
+      "
+          >
+            76
+            %
+          </p>
+          <p
+            class="
+        max-w-61 text-center font-roboto font-light
+        xl:text-roboto-text-large
+      "
+          >
+            of code in codebases is open source
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center font-sora"
+        >
+          <img
+            alt="Maintainers Stats"
+            class=""
+            height="40"
+            src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M28.4316%2025.8683C29.2112%2025.3359%2030.1257%2025.0351%2031.0692%2025.0007C32.0126%2024.9663%2032.9466%2025.1998%2033.7629%2025.674C34.5793%2026.1483%2035.2447%2026.844%2035.6821%2027.6806C36.1196%2028.5173%2036.3112%2029.4607%2036.2349%2030.4017C34.2352%2031.1006%2032.1112%2031.3725%2029.9999%2031.2C29.9934%2029.311%2029.4494%2027.4613%2028.4316%2025.87C27.5281%2024.453%2026.2818%2023.2867%2024.8079%2022.4792C23.3341%2021.6716%2021.6804%2021.2489%2019.9999%2021.25C18.3196%2021.2491%2016.6663%2021.672%2015.1928%2022.4796C13.7193%2023.2871%2012.4732%2024.4532%2011.5699%2025.87M29.9982%2031.1983L29.9999%2031.25C29.9999%2031.625%2029.9799%2031.995%2029.9382%2032.36C26.9138%2034.0952%2023.4867%2035.0056%2019.9999%2035C16.3832%2035%2012.9882%2034.04%2010.0616%2032.36C10.0187%2031.9743%209.99812%2031.5864%209.99989%2031.1983M9.99989%2031.1983C7.88928%2031.3771%205.76641%2031.1061%203.76823%2030.4033C3.69215%2029.4626%203.88388%2028.5195%204.32127%2027.6832C4.75866%2026.8468%205.42384%2026.1513%206.2399%2025.6771C7.05595%2025.203%207.98955%2024.9694%208.93276%2025.0036C9.87596%2025.0377%2010.7902%2025.3381%2011.5699%2025.87M9.99989%2031.1983C10.0059%2029.3095%2010.5526%2027.4614%2011.5699%2025.87M24.9999%2011.25C24.9999%2012.5761%2024.4731%2013.8479%2023.5354%2014.7855C22.5977%2015.7232%2021.326%2016.25%2019.9999%2016.25C18.6738%2016.25%2017.402%2015.7232%2016.4644%2014.7855C15.5267%2013.8479%2014.9999%2012.5761%2014.9999%2011.25C14.9999%209.92392%2015.5267%208.65215%2016.4644%207.71447C17.402%206.77678%2018.6738%206.25%2019.9999%206.25C21.326%206.25%2022.5977%206.77678%2023.5354%207.71447C24.4731%208.65215%2024.9999%209.92392%2024.9999%2011.25ZM34.9999%2016.25C34.9999%2016.7425%2034.9029%2017.2301%2034.7144%2017.6851C34.526%2018.14%2034.2498%2018.5534%2033.9015%2018.9016C33.5533%2019.2499%2033.1399%2019.5261%2032.685%2019.7145C32.23%2019.903%2031.7423%2020%2031.2499%2020C30.7574%2020%2030.2698%2019.903%2029.8148%2019.7145C29.3599%2019.5261%2028.9465%2019.2499%2028.5982%2018.9016C28.25%2018.5534%2027.9738%2018.14%2027.7853%2017.6851C27.5969%2017.2301%2027.4999%2016.7425%2027.4999%2016.25C27.4999%2015.2554%2027.895%2014.3016%2028.5982%2013.5983C29.3015%2012.8951%2030.2553%2012.5%2031.2499%2012.5C32.2445%2012.5%2033.1983%2012.8951%2033.9015%2013.5983C34.6048%2014.3016%2034.9999%2015.2554%2034.9999%2016.25ZM12.4999%2016.25C12.4999%2016.7425%2012.4029%2017.2301%2012.2144%2017.6851C12.026%2018.14%2011.7498%2018.5534%2011.4015%2018.9016C11.0533%2019.2499%2010.6399%2019.5261%2010.185%2019.7145C9.72999%2019.903%209.24235%2020%208.74989%2020C8.25744%2020%207.7698%2019.903%207.31483%2019.7145C6.85986%2019.5261%206.44646%2019.2499%206.09824%2018.9016C5.75002%2018.5534%205.4738%2018.14%205.28535%2017.6851C5.09689%2017.2301%204.99989%2016.7425%204.99989%2016.25C4.99989%2015.2554%205.39498%2014.3016%206.09824%2013.5983C6.8015%2012.8951%207.75533%2012.5%208.74989%2012.5C9.74446%2012.5%2010.6983%2012.8951%2011.4015%2013.5983C12.1048%2014.3016%2012.4999%2015.2554%2012.4999%2016.25Z'%20stroke='%23FF8AB2'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+            width="40"
+          />
+          <p
+            class="
+        text-center text-sora-heading-medium font-light
+        text-secondary-foreground
+        sm:text-sora-heading-large
+        xl:text-sora-heading-xlarge
+      "
+          >
+            60
+            %
+          </p>
+          <p
+            class="
+        max-w-61 text-center font-roboto font-light
+        xl:text-roboto-text-large
+      "
+          >
+            of maintainers are not paid for their work
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="mb-40 bg-background px-4 text-primary-foreground"
+  >
+    <div
+      class="flex flex-col items-center gap-16"
+    >
+      <div
+        class="flex flex-col items-center gap-4"
+      >
+        <h1
+          class="
+            text-center font-sora text-sora-heading-medium
+            md:text-sora-heading-large md:font-light
+            lg:text-sora-heading-xlarge
+            xl:text-sora-heading-xxlarge
+          "
+        >
+          Do You Remember
+           
+          <span
+            class="text-secondary-foreground"
+          >
+            Log4Shell?
+          </span>
+        </h1>
+        <p
+          class="
+            text-center font-roboto text-roboto-text-small font-light
+            text-primary-grey
+            md:max-w-180 md:text-roboto-text-medium
+          "
+        >
+          In December 2021, Log4Shell (CVE-2021-44228) exposed millions of Java-based systems worldwide. A single logging library triggered a global cybersecurity crisis with catastrophic consequences.
+        </p>
+      </div>
+      <div
+        class="
+          flex w-full max-w-328 flex-col items-center gap-10 px-20
+          md:flex-row md:justify-center md:gap-20
+        "
+      >
+        <div
+          class="
+      flex flex-col gap-4 text-center font-sora
+      md:max-w-45 md:text-left
+      xl:max-w-82
+    "
+        >
+          <img
+            alt="Reputational Damage Icon"
+            class="self-center md:self-start"
+            height="40"
+            src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M34.9999%2018.3333C34.5579%2018.3333%2034.134%2018.5089%2033.8214%2018.8215C33.5088%2019.134%2033.3332%2019.558%2033.3332%2020V24.3166L22.8499%2013.8167C22.695%2013.6604%2022.5106%2013.5364%2022.3075%2013.4518C22.1044%2013.3672%2021.8866%2013.3237%2021.6666%2013.3237C21.4465%2013.3237%2021.2287%2013.3672%2021.0256%2013.4518C20.8225%2013.5364%2020.6382%2013.6604%2020.4832%2013.8167L14.9999%2019.3167L6.18324%2010.4833C5.8694%2010.1695%205.44374%209.99316%204.9999%209.99316C4.55607%209.99316%204.13041%2010.1695%203.81657%2010.4833C3.50273%2010.7972%203.32642%2011.2228%203.32642%2011.6667C3.32642%2012.1105%203.50273%2012.5361%203.81657%2012.85L13.8166%2022.85C13.9715%2023.0062%2014.1558%2023.1302%2014.3589%2023.2148C14.562%2023.2994%2014.7799%2023.343%2014.9999%2023.343C15.2199%2023.343%2015.4378%2023.2994%2015.6409%2023.2148C15.844%2023.1302%2016.0283%2023.0062%2016.1832%2022.85L21.6666%2017.35L30.9832%2026.6666H26.6666C26.2245%2026.6666%2025.8006%2026.8422%2025.4881%2027.1548C25.1755%2027.4674%2024.9999%2027.8913%2024.9999%2028.3333C24.9999%2028.7753%2025.1755%2029.1993%2025.4881%2029.5118C25.8006%2029.8244%2026.2245%2030%2026.6666%2030H34.9999C35.2177%2029.9973%2035.4329%2029.9521%2035.6332%2029.8666C36.0405%2029.6975%2036.3641%2029.3739%2036.5332%2028.9666C36.6186%2028.7663%2036.6639%2028.5511%2036.6666%2028.3333V20C36.6666%2019.558%2036.491%2019.134%2036.1784%2018.8215C35.8659%2018.5089%2035.4419%2018.3333%2034.9999%2018.3333Z'%20fill='%23FF8AB2'/%3e%3c/svg%3e"
+            width="40"
+          />
+          <h1
+            class="
+        text-sora-heading-small text-secondary-foreground
+        xl:text-sora-heading-large
+      "
+          >
+            Reputational Damage
+          </h1>
+          <ul
+            class="
+              flex flex-col items-center gap-4 font-roboto font-light
+              md:items-start
+            "
+          >
+            <li>
+              Damaged brand reputation.
+            </li>
+            <li>
+              Consumer trust erosion.
+            </li>
+            <li>
+              Negative press and public scrutiny.
+            </li>
+          </ul>
+        </div>
+        <div
+          class="
+      flex flex-col gap-4 text-center font-sora
+      md:max-w-45 md:text-left
+      xl:max-w-82
+    "
+        >
+          <img
+            alt="Financial Devastation Icon"
+            class="self-center md:self-start"
+            height="40"
+            src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M5%2020C5%2021.9698%205.38799%2023.9204%206.14181%2025.7403C6.89563%2027.5601%208.00052%2029.2137%209.3934%2030.6066C10.7863%2031.9995%2012.4399%2033.1044%2014.2597%2033.8582C16.0796%2034.612%2018.0302%2035%2020%2035C21.9698%2035%2023.9204%2034.612%2025.7403%2033.8582C27.5601%2033.1044%2029.2137%2031.9995%2030.6066%2030.6066C31.9995%2029.2137%2033.1044%2027.5601%2033.8582%2025.7403C34.612%2023.9204%2035%2021.9698%2035%2020C35%2018.0302%2034.612%2016.0796%2033.8582%2014.2597C33.1044%2012.4399%2031.9995%2010.7863%2030.6066%209.3934C29.2137%208.00052%2027.5601%206.89563%2025.7403%206.14181C23.9204%205.38799%2021.9698%205%2020%205C18.0302%205%2016.0796%205.38799%2014.2597%206.14181C12.4399%206.89563%2010.7863%208.00052%209.3934%209.3934C8.00052%2010.7863%206.89563%2012.4399%206.14181%2014.2597C5.38799%2016.0796%205%2018.0302%205%2020Z'%20stroke='%23FF8AB2'%20stroke-width='3'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M24.6667%2015C24.3647%2014.4762%2023.9261%2014.0445%2023.3976%2013.7509C22.8692%2013.4573%2022.2708%2013.313%2021.6667%2013.3333H18.3333C17.4493%2013.3333%2016.6014%2013.6845%2015.9763%2014.3096C15.3512%2014.9347%2015%2015.7826%2015%2016.6666C15%2017.5507%2015.3512%2018.3985%2015.9763%2019.0236C16.6014%2019.6488%2017.4493%2020%2018.3333%2020H21.6667C22.5507%2020%2023.3986%2020.3511%2024.0237%2020.9763C24.6488%2021.6014%2025%2022.4492%2025%2023.3333C25%2024.2173%2024.6488%2025.0652%2024.0237%2025.6903C23.3986%2026.3154%2022.5507%2026.6666%2021.6667%2026.6666H18.3333C17.7292%2026.687%2017.1308%2026.5426%2016.6024%2026.249C16.0739%2025.9555%2015.6353%2025.5237%2015.3333%2025M20%2011.6666V28.3333'%20stroke='%23FF8AB2'%20stroke-width='3'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+            width="40"
+          />
+          <h1
+            class="
+        text-sora-heading-small text-secondary-foreground
+        xl:text-sora-heading-large
+      "
+          >
+            Financial Devastation
+          </h1>
+          <ul
+            class="
+              flex flex-col items-center gap-4 font-roboto font-light
+              md:items-start
+            "
+          >
+            <li>
+              <b>
+                $700M+
+              </b>
+               legal exposure established.
+            </li>
+            <li>
+              <b>
+                $90,000+
+              </b>
+               average direct cost per breach
+            </li>
+            <li>
+              Massive overtime for 24/7 “war rooms”.
+            </li>
+          </ul>
+        </div>
+        <div
+          class="
+      flex flex-col gap-4 text-center font-sora
+      md:max-w-45 md:text-left
+      xl:max-w-82
+    "
+        >
+          <img
+            alt="Operational Paralysis Icon"
+            class="self-center md:self-start"
+            height="40"
+            src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M16.6668%2011.6667C16.2248%2011.6667%2015.8009%2011.8423%2015.4883%2012.1549C15.1758%2012.4674%2015.0002%2012.8913%2015.0002%2013.3334V26.6667C15.0002%2027.1087%2015.1758%2027.5327%2015.4883%2027.8452C15.8009%2028.1578%2016.2248%2028.3334%2016.6668%2028.3334C17.1089%2028.3334%2017.5328%2028.1578%2017.8453%2027.8452C18.1579%2027.5327%2018.3335%2027.1087%2018.3335%2026.6667V13.3334C18.3335%2012.8913%2018.1579%2012.4674%2017.8453%2012.1549C17.5328%2011.8423%2017.1089%2011.6667%2016.6668%2011.6667ZM20.0002%203.33337C16.7038%203.33337%2013.4815%204.31086%2010.7407%206.14221C7.99985%207.97357%205.86364%2010.5765%204.60218%2013.622C3.34072%2016.6674%203.01066%2020.0185%203.65375%2023.2515C4.29684%2026.4846%205.88418%2029.4543%208.21506%2031.7852C10.5459%2034.116%2013.5156%2035.7034%2016.7487%2036.3465C19.9817%2036.9896%2023.3328%2036.6595%2026.3782%2035.398C29.4237%2034.1366%2032.0266%2032.0004%2033.858%2029.2595C35.6894%2026.5187%2036.6668%2023.2964%2036.6668%2020C36.6668%2017.8113%2036.2357%2015.6441%2035.3982%2013.622C34.5606%2011.5999%2033.3329%209.76257%2031.7853%208.21493C30.2376%206.66728%2028.4003%205.43963%2026.3782%204.60205C24.3561%203.76447%2022.1889%203.33337%2020.0002%203.33337ZM20.0002%2033.3334C17.3631%2033.3334%2014.7852%2032.5514%2012.5926%2031.0863C10.3999%2029.6212%208.69095%2027.5388%207.68178%2025.1025C6.67261%2022.6661%206.40856%2019.9853%206.92303%2017.3988C7.4375%2014.8124%208.70738%2012.4367%2010.5721%2010.572C12.4368%208.70725%2014.8126%207.43737%2017.399%206.9229C19.9854%206.40843%2022.6663%206.67248%2025.1026%207.68165C27.539%208.69082%2029.6213%2010.3998%2031.0864%2012.5924C32.5515%2014.7851%2033.3335%2017.363%2033.3335%2020C33.3335%2023.5363%2031.9287%2026.9276%2029.4283%2029.4281C26.9278%2031.9286%2023.5364%2033.3334%2020.0002%2033.3334ZM23.3335%2011.6667C22.8915%2011.6667%2022.4676%2011.8423%2022.155%2012.1549C21.8424%2012.4674%2021.6668%2012.8913%2021.6668%2013.3334V26.6667C21.6668%2027.1087%2021.8424%2027.5327%2022.155%2027.8452C22.4676%2028.1578%2022.8915%2028.3334%2023.3335%2028.3334C23.7755%2028.3334%2024.1995%2028.1578%2024.512%2027.8452C24.8246%2027.5327%2025.0002%2027.1087%2025.0002%2026.6667V13.3334C25.0002%2012.8913%2024.8246%2012.4674%2024.512%2012.1549C24.1995%2011.8423%2023.7755%2011.6667%2023.3335%2011.6667Z'%20fill='%23FF8AB2'/%3e%3c/svg%3e"
+            width="40"
+          />
+          <h1
+            class="
+        text-sora-heading-small text-secondary-foreground
+        xl:text-sora-heading-large
+      "
+          >
+            Operational Paralysis
+          </h1>
+          <ul
+            class="
+              flex flex-col items-center gap-4 font-roboto font-light
+              md:items-start
+            "
+          >
+            <li>
+              <b>
+                Up to 3,300 developer hours lost.
+              </b>
+            </li>
+            <li>
+              All innovation halted.
+            </li>
+            <li>
+              29% recurrence rate forced costly rework cycles.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h3
+        class="
+          text-center font-sora text-sora-heading-xsmall font-light
+          text-primary-grey
+          md:text-sora-heading-small
+        "
+      >
+        Don’t let your organization be the next case study.
+      </h3>
+    </div>
+  </div>
+  <div
+    class="mb-40 bg-background px-4 text-primary-foreground"
+  >
+    <div
+      class="flex flex-col items-center gap-16 px-4"
+    >
+      <h1
+        class="
+          text-center font-sora text-sora-heading-medium
+          md:text-sora-heading-large md:font-light
+          lg:text-sora-heading-xlarge
+          xl:text-sora-heading-xxlarge
+        "
+      >
+        Let Us Protect You
+      </h1>
+      <div
+        class="
+          flex flex-col items-center justify-center gap-12
+          md:flex-row md:gap-8
+        "
+      >
+        <dl
+          class="
+      flex list-none flex-col gap-10
+      [counter-reset:feature]
+      md:gap-20
+    "
+        >
+          <li
+            class="[counter-increment:feature]"
+          >
+            <div
+              class="flex flex-col gap-1"
+            >
+              <dt
+                class="
+          flex flex-row gap-2 font-sora text-sora-heading-small font-light
+          before:font-sora before:text-sora-heading-small before:font-light
+          before:text-secondary-foreground-2
+          md:gap-4 md:text-sora-heading-medium
+          md:before:text-sora-heading-medium
+          lg:text-sora-heading-large lg:before:text-sora-heading-large
+          xl:text-sora-heading-xlarge xl:before:text-sora-heading-xlarge
+          
+            before:[content:counter(feature,decimal-leading-zero)]
+            md:before:[content:counter(feature,decimal-leading-zero)]
+            lg:before:[content:counter(feature,decimal-leading-zero)]
+            xl:before:[content:counter(feature,decimal-leading-zero)]
+          
+          items-center justify-center
+          md:items-start md:justify-normal
+        "
+              >
+                <h1>
+                  We Analyze
+                </h1>
+              </dt>
+              <dd
+                class="
+          max-w-218 text-center font-roboto text-roboto-text-small font-light
+          text-subtitle
+          sm:text-roboto-text-regular
+          md:text-left md:text-roboto-text-medium
+          lg:text-roboto-text-large
+        "
+              >
+                We score your open source dependencies, measuring community strength, maintainer expertise, and supply chain integrity.
+              </dd>
+            </div>
+          </li>
+          <li
+            class="[counter-increment:feature]"
+          >
+            <div
+              class="flex flex-col gap-1"
+            >
+              <dt
+                class="
+          flex flex-row gap-2 font-sora text-sora-heading-small font-light
+          before:font-sora before:text-sora-heading-small before:font-light
+          before:text-secondary-foreground-2
+          md:gap-4 md:text-sora-heading-medium
+          md:before:text-sora-heading-medium
+          lg:text-sora-heading-large lg:before:text-sora-heading-large
+          xl:text-sora-heading-xlarge xl:before:text-sora-heading-xlarge
+          
+            before:[content:counter(feature,decimal-leading-zero)]
+            md:before:[content:counter(feature,decimal-leading-zero)]
+            lg:before:[content:counter(feature,decimal-leading-zero)]
+            xl:before:[content:counter(feature,decimal-leading-zero)]
+          
+          items-center justify-center
+          md:items-start md:justify-normal
+        "
+              >
+                <h1>
+                  We Alert
+                </h1>
+              </dt>
+              <dd
+                class="
+          max-w-218 text-center font-roboto text-roboto-text-small font-light
+          text-subtitle
+          sm:text-roboto-text-regular
+          md:text-left md:text-roboto-text-medium
+          lg:text-roboto-text-large
+        "
+              >
+                We send actionable, real-time alerts—detecting hidden risks, mapping CVEs, and clarifying exploitability with VEX to eliminate false positives.
+              </dd>
+            </div>
+          </li>
+          <li
+            class="[counter-increment:feature]"
+          >
+            <div
+              class="flex flex-col gap-1"
+            >
+              <dt
+                class="
+          flex flex-row gap-2 font-sora text-sora-heading-small font-light
+          before:font-sora before:text-sora-heading-small before:font-light
+          before:text-secondary-foreground-2
+          md:gap-4 md:text-sora-heading-medium
+          md:before:text-sora-heading-medium
+          lg:text-sora-heading-large lg:before:text-sora-heading-large
+          xl:text-sora-heading-xlarge xl:before:text-sora-heading-xlarge
+          
+            before:[content:counter(feature,decimal-leading-zero)]
+            md:before:[content:counter(feature,decimal-leading-zero)]
+            lg:before:[content:counter(feature,decimal-leading-zero)]
+            xl:before:[content:counter(feature,decimal-leading-zero)]
+          
+          items-center justify-center
+          md:items-start md:justify-normal
+        "
+              >
+                <h1>
+                  We Partner
+                </h1>
+              </dt>
+              <dd
+                class="
+          max-w-218 text-center font-roboto text-roboto-text-small font-light
+          text-subtitle
+          sm:text-roboto-text-regular
+          md:text-left md:text-roboto-text-medium
+          lg:text-roboto-text-large
+        "
+              >
+                For your most critical dependencies, we provide direct support, collaborating with maintainers, hardening projects, and ensuring long-term security and sustainability.
+              </dd>
+            </div>
+          </li>
+        </dl>
+        <div
+          class="
+        flex max-w-80 flex-col items-center rounded-md border border-gray-700
+        p-2 pb-4
+        md:h-134
+      "
+        >
+          <h3
+            class="font-sora text-sora-heading-small font-light"
+          >
+            RISK SCORE
+          </h3>
+          <div
+            class="relative h-max w-max"
+          >
+            <svg
+              class="transform"
+              height="100"
+              viewBox="0 0 180 100"
+              width="180"
+            >
+              <defs>
+                <lineargradient
+                  id="gradient"
+                  x1="0%"
+                  x2="100%"
+                  y1="0%"
+                  y2="0%"
+                >
+                  <stop
+                    offset="0%"
+                    stop-color="#FF0000"
+                  />
+                  <stop
+                    offset="10%"
+                    stop-color="#FF7E4B"
+                  />
+                  <stop
+                    offset="50%"
+                    stop-color="#F6FF45"
+                  />
+                  <stop
+                    offset="100%"
+                    stop-color="#F6FF45"
+                  />
+                </lineargradient>
+              </defs>
+              <path
+                d="M 10 90 A 80 80 0 0 1 170 90"
+                fill="none"
+                stroke="#5473A2"
+                stroke-linecap="round"
+                stroke-width="20"
+              />
+              <path
+                class="transition-all duration-500 ease-in-out"
+                d="M 10 90 A 80 80 0 0 1 170 90"
+                fill="none"
+                stroke="url(#gradient)"
+                stroke-dasharray="251.32741228718345"
+                stroke-dashoffset="110.58406140636072"
+                stroke-linecap="round"
+                stroke-width="10"
+              />
+            </svg>
+            <div
+              class="
+          absolute top-8 flex flex-col items-center gap-2 font-roboto text-lg
+          font-light
+        "
+            >
+              <p>
+                SCORE
+              </p>
+              <b
+                class="-mt-2 text-center text-roboto-text-large font-bold"
+              >
+                56
+                %
+              </b>
+              <div
+                class="
+            relative flex w-46 flex-row justify-between text-center font-roboto
+          "
+              >
+                <p>
+                  0
+                </p>
+                <p
+                  class="
+              absolute top-2 left-17 h-4 w-13 rounded-lg p-1 font-sora
+              text-[6px] font-light
+            "
+                  style="background-color: rgb(246, 255, 69); color: black;"
+                >
+                  Medium Risk
+                </p>
+                <p>
+                  100
+                </p>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div
+            class="px-4 pt-6 font-roboto"
+          >
+            <h4
+              class="font-bold"
+            >
+              Why This Score Matters
+            </h4>
+            <ul
+              class="
+      flex list-none flex-col gap-1 text-roboto-text-tiny text-primary-grey
+    "
+            >
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="."
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='5'%20cy='5'%20r='5'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  Supply chain attacks increased 650% in 2022
+                </p>
+              </li>
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="."
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='5'%20cy='5'%20r='5'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  70% of vulnerabilities are in dependencies, not your code
+                </p>
+              </li>
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="."
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='5'%20cy='5'%20r='5'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  Medium risk dependencies need active monitoring
+                </p>
+              </li>
+            </ul>
+            <br />
+            <h4
+              class="font-bold"
+            >
+              What We Analyze
+            </h4>
+            <ul
+              class="
+      flex list-none flex-col gap-1 text-roboto-text-tiny text-primary-grey
+    "
+            >
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="Community Health Icon"
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='14'%20height='14'%20viewBox='0%200%2014%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9.33317%209.91661V11.0833H1.1665V9.91661C1.1665%209.91661%201.1665%207.58327%205.24984%207.58327C9.33317%207.58327%209.33317%209.91661%209.33317%209.91661ZM7.2915%204.37494C7.2915%203.97114%207.17176%203.5764%206.94742%203.24065C6.72308%202.9049%206.40422%202.64322%206.03115%202.48869C5.65808%202.33416%205.24757%202.29373%204.85153%202.3725C4.45548%202.45128%204.09169%202.64573%203.80616%202.93126C3.52063%203.2168%203.32618%203.58059%203.2474%203.97663C3.16862%204.37268%203.20905%204.78319%203.36358%205.15625C3.51811%205.52932%203.7798%205.84818%204.11555%206.07252C4.4513%206.29687%204.84603%206.41661%205.24984%206.41661C5.79132%206.41661%206.31063%206.2015%206.69351%205.81862C7.0764%205.43573%207.2915%204.91642%207.2915%204.37494ZM9.29817%207.58327C9.65677%207.86079%209.9502%208.21353%2010.1578%208.61665C10.3654%209.01978%2010.4822%209.46351%2010.4998%209.91661V11.0833H12.8332V9.91661C12.8332%209.91661%2012.8332%207.79911%209.29817%207.58327ZM8.74984%202.33327C8.34838%202.33141%207.9558%202.45142%207.624%202.67744C7.97834%203.17254%208.16887%203.76611%208.16887%204.37494C8.16887%204.98377%207.97834%205.57734%207.624%206.07244C7.9558%206.29846%208.34838%206.41847%208.74984%206.41661C9.29132%206.41661%209.81063%206.2015%2010.1935%205.81862C10.5764%205.43573%2010.7915%204.91642%2010.7915%204.37494C10.7915%203.83346%2010.5764%203.31415%2010.1935%202.93126C9.81063%202.54838%209.29132%202.33327%208.74984%202.33327Z'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  Community Health
+                </p>
+              </li>
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="Security Practices Icon"
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='14'%20height='14'%20viewBox='0%200%2014%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M12.25%206.41658C12.25%209.65409%2010.01%2012.6816%207%2013.4166C3.99%2012.6816%201.75%209.65409%201.75%206.41658V2.91659L7%200.583252L12.25%202.91659V6.41658ZM7%2012.2499C9.1875%2011.6666%2011.0833%209.06492%2011.0833%206.54492V3.67492L7%201.85492L2.91667%203.67492V6.54492C2.91667%209.06492%204.8125%2011.6666%207%2012.2499Z'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  Security Practices
+                </p>
+              </li>
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="Supply Chain Integrity Icon"
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='14'%20height='14'%20viewBox='0%200%2014%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M6.17747%207.82247C6.41664%208.04997%206.41664%208.4233%206.17747%208.6508C5.94997%208.8783%205.57664%208.8783%205.34914%208.6508C4.80277%208.10362%204.4959%207.36197%204.4959%206.58872C4.4959%205.81546%204.80277%205.07382%205.34914%204.52664L7.41414%202.46164C7.96132%201.91527%208.70297%201.6084%209.47622%201.6084C10.2495%201.6084%2010.9911%201.91527%2011.5383%202.46164C12.0847%203.00882%2012.3915%203.75047%2012.3915%204.52372C12.3915%205.29697%2012.0847%206.03862%2011.5383%206.5858L10.6691%207.45497C10.675%206.97664%2010.5991%206.4983%2010.4358%206.0433L10.71%205.7633C10.8736%205.60162%2011.0036%205.40905%2011.0923%205.19676C11.181%204.98448%2011.2266%204.7567%2011.2266%204.52664C11.2266%204.29657%2011.181%204.06879%2011.0923%203.85651C11.0036%203.64422%2010.8736%203.45165%2010.71%203.28997C10.5483%203.1263%2010.3557%202.99635%2010.1434%202.90766C9.93115%202.81897%209.70337%202.7733%209.4733%202.7733C9.24324%202.7733%209.01546%202.81897%208.80317%202.90766C8.59089%202.99635%208.39832%203.1263%208.23664%203.28997L6.17747%205.34914C6.0138%205.51082%205.88385%205.70339%205.79516%205.91567C5.70647%206.12796%205.6608%206.35574%205.6608%206.5858C5.6608%206.81587%205.70647%207.04365%205.79516%207.25593C5.88385%207.46822%206.0138%207.66078%206.17747%207.82247ZM7.82247%205.34914C8.04997%205.12164%208.4233%205.12164%208.6508%205.34914C9.19716%205.89632%209.50404%206.63797%209.50404%207.41122C9.50404%208.18447%209.19716%208.92612%208.6508%209.4733L6.5858%2011.5383C6.03862%2012.0847%205.29697%2012.3915%204.52372%2012.3915C3.75047%2012.3915%203.00882%2012.0847%202.46164%2011.5383C1.91527%2010.9911%201.6084%2010.2495%201.6084%209.47622C1.6084%208.70297%201.91527%207.96132%202.46164%207.41414L3.3308%206.54497C3.32497%207.0233%203.4008%207.50164%203.56414%207.96247L3.28997%208.23664C3.1263%208.39832%202.99635%208.59089%202.90766%208.80317C2.81897%209.01546%202.7733%209.24324%202.7733%209.4733C2.7733%209.70337%202.81897%209.93115%202.90766%2010.1434C2.99635%2010.3557%203.1263%2010.5483%203.28997%2010.71C3.45165%2010.8736%203.64422%2011.0036%203.85651%2011.0923C4.06879%2011.181%204.29657%2011.2266%204.52664%2011.2266C4.7567%2011.2266%204.98448%2011.181%205.19676%2011.0923C5.40905%2011.0036%205.60162%2010.8736%205.7633%2010.71L7.82247%208.6508C7.98614%208.48912%208.11609%208.29655%208.20478%208.08426C8.29347%207.87198%208.33914%207.6442%208.33914%207.41414C8.33914%207.18407%208.29347%206.95629%208.20478%206.74401C8.11609%206.53172%207.98614%206.33915%207.82247%206.17747C7.76581%206.12438%207.72065%206.06023%207.68978%205.989C7.65891%205.91776%207.64298%205.84094%207.64298%205.7633C7.64298%205.68566%207.65891%205.60885%207.68978%205.53761C7.72065%205.46637%207.76581%205.40222%207.82247%205.34914Z'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  Supply Chain Integrity
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="mb-40 bg-background px-4 text-primary-foreground"
+  >
+    <div
+      class="flex flex-col items-center gap-8 pt-10"
+    >
+      <h1
+        class="
+          text-center font-sora text-sora-heading-medium
+          md:text-sora-heading-large md:font-light
+          lg:text-sora-heading-xlarge
+          xl:text-sora-heading-xxlarge
+        "
+      >
+        Don’t Wait For The Next Breach
+      </h1>
+      <p
+        class="
+          text-center font-roboto text-roboto-text-medium font-light
+          md:text-roboto-text-large
+          lg:max-w-193
+        "
+      >
+        We’re here to support your business. Whether you want to learn more about our services, explore collaboration opportunities, or need guidance, our team is ready to help you strengthen your open source security.
+      </p>
+      <div
+        class="
+        relative mt-8 flex max-w-128 flex-col items-center gap-4 rounded-[1rem]
+        border border-gray-700 p-4 pb-8
+        [box-shadow:0px_25px_50px_-12px_rgba(239,77,172,0.25)]
+        md:items-start
+      "
+      >
+        <h2
+          class="
+          text-center font-sora text-sora-heading-small font-light
+          md:text-left md:text-sora-heading-large
+        "
+        >
+          Get In Touch
+        </h2>
+        <p
+          class="
+          text-center font-roboto text-roboto-text-small font-light
+          md:text-left md:text-roboto-text-large
+        "
+        >
+          This is so that we can get in contact with you in case any opportunity comes up
+        </p>
+        <form
+          class="w-full"
+        >
+          <div
+            class="mt-4 flex flex-col gap-3"
+          >
+            <div
+              class="
+                flex flex-col gap-3
+                md:flex-row md:gap-2
+              "
+            >
+              <div
+                class="gap-0 flex grow flex-col"
+                data-slot="form-item"
+              >
+                <div
+                  class="flex flex-col gap-2"
+                >
+                  <label
+                    class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                    data-error="false"
+                    data-slot="form-label"
+                    for="«r0»-form-item"
+                  >
+                    Your Full Name*
+                  </label>
+                  <input
+                    aria-describedby="«r0»-form-item-description"
+                    aria-invalid="false"
+                    class="h-12 w-full min-w-0 rounded-sm border border-gray-700 bg-transparent p-3 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20"
+                    data-slot="form-control"
+                    id="«r0»-form-item"
+                    name="fullName"
+                    placeholder="Your Full Name"
+                  />
+                </div>
+              </div>
+              <div
+                class="gap-0 flex grow flex-col"
+                data-slot="form-item"
+              >
+                <div
+                  class="relative flex flex-col gap-2"
+                >
+                  <label
+                    class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                    data-error="false"
+                    data-slot="form-label"
+                    for="«r1»-form-item"
+                  >
+                    Your Email*
+                  </label>
+                  <input
+                    aria-describedby="«r1»-form-item-description"
+                    aria-invalid="false"
+                    class="h-12 w-full min-w-0 rounded-sm border border-gray-700 bg-transparent p-3 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20"
+                    data-slot="form-control"
+                    id="«r1»-form-item"
+                    name="email"
+                    placeholder="Your Email"
+                    type="email"
+                  />
+                  <img
+                    alt="Email Icon"
+                    class="absolute top-8.5 right-2"
+                    height="24"
+                    src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M19.5%207.8V16.2C19.5%2016.6774%2019.3055%2017.1352%2018.9593%2017.4728C18.6131%2017.8104%2018.1435%2018%2017.6538%2018H5.34615C4.85652%2018%204.38695%2017.8104%204.04073%2017.4728C3.6945%2017.1352%203.5%2016.6774%203.5%2016.2V7.8M19.5%207.8C19.5%207.32261%2019.3055%206.86477%2018.9593%206.52721C18.6131%206.18964%2018.1435%206%2017.6538%206H5.34615C4.85652%206%204.38695%206.18964%204.04073%206.52721C3.6945%206.86477%203.5%207.32261%203.5%207.8M19.5%207.8V7.9944C19.5%208.30172%2019.4194%208.60392%2019.2657%208.87224C19.112%209.14055%2018.8904%209.36603%2018.6221%209.5272L12.4682%2013.2192C12.1771%2013.394%2011.8419%2013.4866%2011.5%2013.4866C11.1581%2013.4866%2010.8229%2013.394%2010.5318%2013.2192L4.37795%209.528C4.10958%209.36683%203.888%209.14135%203.73431%208.87304C3.58063%208.60472%203.49997%208.30252%203.5%207.9952V7.8'%20stroke='%23F5F7FA'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                    width="24"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex grow flex-col gap-2"
+              data-slot="form-item"
+            >
+              <label
+                class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                data-error="false"
+                data-slot="form-label"
+                for="«r2»-form-item"
+              >
+                Your LinkedIn
+              </label>
+              <input
+                aria-describedby="«r2»-form-item-description"
+                aria-invalid="false"
+                class="h-12 w-full min-w-0 rounded-sm border border-gray-700 bg-transparent p-3 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20"
+                data-slot="form-control"
+                id="«r2»-form-item"
+                name="linkedInProfile"
+                placeholder="Your LinkedIn"
+                type="url"
+              />
+            </div>
+            <div
+              class="gap-0 flex grow flex-col"
+              data-slot="form-item"
+            >
+              <div
+                class="flex flex-col gap-2"
+              >
+                <label
+                  class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                  data-error="false"
+                  data-slot="form-label"
+                  for="«r3»-form-item"
+                >
+                  Your Message*
+                </label>
+                <textarea
+                  aria-describedby="«r3»-form-item-description"
+                  aria-invalid="false"
+                  class="flex field-sizing-content min-h-16 w-full rounded-md border border-gray-700 bg-transparent px-3 py-2 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground-2 placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 md:text-sm dark:bg-input/30 dark:aria-invalid:ring-destructive/40 h-25"
+                  data-slot="form-control"
+                  id="«r3»-form-item"
+                  name="message"
+                  placeholder="Enter your message..."
+                />
+              </div>
+            </div>
+            <button
+              class="h-max cursor-pointer rounded-[12px] bg-linear-(--background-gradient) px-4 py-2.5 font-sora font-light disabled:cursor-progress disabled:[filter:grayscale(0.5)] w-35 self-end"
+              type="submit"
+            >
+              Send
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="
+      bg-background px-4 pb-20 font-sora font-light text-primary-foreground
+      md:px-8
+      xl:px-15
+    "
+  >
+    <div
+      class="
+        flex flex-col-reverse gap-4
+        md:flex-row md:justify-between
+      "
+    >
+      <div
+        class="flex flex-col gap-4"
+      >
+        <div
+          class="
+            flex items-center justify-between gap-2 self-center
+            md:self-start
+          "
+        >
+          <img
+            alt="Open Source Economy"
+            class="h-11 w-17"
+            src="/src/lib/icons/open-source-logo.svg"
+          />
+          <h4
+            class="max-w-47 text-left text-sora-heading-small"
+          >
+            Open Source Economy
+          </h4>
+        </div>
+        <p
+          class="
+            max-w-156 font-roboto text-sora-text-small font-light
+            text-primary-grey
+          "
+        >
+          Open Source Economy is a non-profit organization dedicated to helping developers keep contributing to open source while receiving funding for their projects.
+        </p>
+      </div>
+      <div
+        class="
+          hidden flex-col place-items-start gap-2
+          lg:flex
+        "
+      >
+        <h5
+          class="text-left text-sora-heading-small"
+        >
+          Company
+        </h5>
+        <button>
+          Button
+        </button>
+        <button>
+          Button
+        </button>
+      </div>
+      <div
+        class="
+          hidden flex-col place-items-start gap-2
+          lg:flex
+        "
+      >
+        <h5
+          class="text-left text-sora-heading-small"
+        >
+          Resources
+        </h5>
+        <button>
+          Button
+        </button>
+        <button>
+          Button
+        </button>
+        <button>
+          Button
+        </button>
+      </div>
+      <div
+        class="flex flex-col gap-4"
+      >
+        <div
+          class="flex flex-row justify-around px-18"
+        >
+          <a
+            href="https://www.linkedin.com/company/open-source-economy"
+            rel="no-referrer no-opener noreferrer"
+            target="_blank"
+          >
+            <img
+              class=""
+              height="24"
+              src="data:image/svg+xml,%3csvg%20width='25'%20height='24'%20viewBox='0%200%2025%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M19.5%203C20.0304%203%2020.5391%203.21071%2020.9142%203.58579C21.2893%203.96086%2021.5%204.46957%2021.5%205V19C21.5%2019.5304%2021.2893%2020.0391%2020.9142%2020.4142C20.5391%2020.7893%2020.0304%2021%2019.5%2021H5.5C4.96957%2021%204.46086%2020.7893%204.08579%2020.4142C3.71071%2020.0391%203.5%2019.5304%203.5%2019V5C3.5%204.46957%203.71071%203.96086%204.08579%203.58579C4.46086%203.21071%204.96957%203%205.5%203H19.5ZM19%2018.5V13.2C19%2012.3354%2018.6565%2011.5062%2018.0452%2010.8948C17.4338%2010.2835%2016.6046%209.94%2015.74%209.94C14.89%209.94%2013.9%2010.46%2013.42%2011.24V10.13H10.63V18.5H13.42V13.57C13.42%2012.8%2014.04%2012.17%2014.81%2012.17C15.1813%2012.17%2015.5374%2012.3175%2015.7999%2012.5801C16.0625%2012.8426%2016.21%2013.1987%2016.21%2013.57V18.5H19ZM7.38%208.56C7.82556%208.56%208.25288%208.383%208.56794%208.06794C8.883%207.75288%209.06%207.32556%209.06%206.88C9.06%205.95%208.31%205.19%207.38%205.19C6.93178%205.19%206.50193%205.36805%206.18499%205.68499C5.86805%206.00193%205.69%206.43178%205.69%206.88C5.69%207.81%206.45%208.56%207.38%208.56ZM8.77%2018.5V10.13H6V18.5H8.77Z'%20fill='white'/%3e%3c/svg%3e"
+              width="24"
+            />
+          </a>
+          <a
+            href="https://x.com/OS_Economy"
+            rel="no-referrer no-opener noreferrer"
+            target="_blank"
+          >
+            <img
+              class=""
+              height="24"
+              src="data:image/svg+xml,%3csvg%20width='25'%20height='24'%20viewBox='0%200%2025%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10.988%2014.651L15.75%2021H22.75L14.892%2010.522L21.43%203H18.78L13.663%208.886L9.25%203H2.25L9.76%2013.015L2.82%2021H5.47L10.988%2014.651ZM16.75%2019L6.25%205H8.25L18.75%2019H16.75Z'%20fill='white'/%3e%3c/svg%3e"
+              width="24"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/@OpenSourceEconomy-hn3tg"
+            rel="no-referrer no-opener noreferrer"
+            target="_blank"
+          >
+            <img
+              class=""
+              height="24"
+              src="data:image/svg+xml,%3csvg%20width='25'%20height='24'%20viewBox='0%200%2025%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10.5%2015L15.69%2012L10.5%209V15ZM22.06%207.17C22.19%207.64%2022.28%208.27%2022.34%209.07C22.41%209.87%2022.44%2010.56%2022.44%2011.16L22.5%2012C22.5%2014.19%2022.34%2015.8%2022.06%2016.83C21.81%2017.73%2021.23%2018.31%2020.33%2018.56C19.86%2018.69%2019%2018.78%2017.68%2018.84C16.38%2018.91%2015.19%2018.94%2014.09%2018.94L12.5%2019C8.31%2019%205.7%2018.84%204.67%2018.56C3.77%2018.31%203.19%2017.73%202.94%2016.83C2.81%2016.36%202.72%2015.73%202.66%2014.93C2.59%2014.13%202.56%2013.44%202.56%2012.84L2.5%2012C2.5%209.81%202.66%208.2%202.94%207.17C3.19%206.27%203.77%205.69%204.67%205.44C5.14%205.31%206%205.22%207.32%205.16C8.62%205.09%209.81%205.06%2010.91%205.06L12.5%205C16.69%205%2019.3%205.16%2020.33%205.44C21.23%205.69%2021.81%206.27%2022.06%207.17Z'%20fill='white'/%3e%3c/svg%3e"
+              width="24"
+            />
+          </a>
+        </div>
+        <form
+          class="relative flex flex-row"
+        >
+          <div
+            class="
+            flex w-full flex-col
+            md:min-w-77
+          "
+          >
+            <div
+              class="gap-0 flex grow flex-col"
+              data-slot="form-item"
+            >
+              <div
+                class="relative flex flex-col gap-2"
+              >
+                <label
+                  class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                  data-error="false"
+                  data-slot="form-label"
+                  for="«r4»-form-item"
+                >
+                  Newsletter
+                </label>
+                <input
+                  aria-describedby="«r4»-form-item-description"
+                  aria-invalid="false"
+                  class="h-12 w-full min-w-0 rounded-sm border border-gray-700 bg-transparent p-3 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20"
+                  data-slot="form-control"
+                  id="«r4»-form-item"
+                  name="email"
+                  placeholder="Enter Your Email"
+                  type="email"
+                />
+              </div>
+            </div>
+            <p
+              class="
+              font-roboto text-[12px] font-light
+              
+            "
+            />
+          </div>
+          <button
+            class="cursor-pointer bg-linear-(--background-gradient) px-4 font-sora font-light disabled:cursor-progress disabled:[filter:grayscale(0.5)] absolute top-7 right-2 h-9 w-35 rounded-[12px] py-0"
+            type="submit"
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+    <hr
+      class="mt-8 mb-2"
+    />
+    <div
+      class="
+        flex flex-col justify-between gap-1 font-roboto text-roboto-text-small
+        font-light
+        md:flex-row md:gap-0 md:text-roboto-text-regular
+      "
+    >
+      <p>
+        © Open Source Economy - Non profit organisation -
+        <span
+          class="mr-2 ml-3"
+        >
+          CHE-440.058.692
+        </span>
+        Switzerland
+      </p>
+      <p>
+        Terms Of Service | Privacy Policy
+      </p>
+    </div>
+  </footer>
+</div>
+`;

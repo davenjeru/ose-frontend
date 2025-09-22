@@ -17,7 +17,7 @@ export type ContactFormTestHarness = {
   children: (form: UseFormReturn<never>) => JSX.Element;
 };
 
-const ContactFormTestHarness: FC<ContactFormTestHarness> = ({
+const NewsletterFormTestHarness: FC<ContactFormTestHarness> = ({
   formSchema,
   onSubmit,
   children,
@@ -29,26 +29,17 @@ const ContactFormTestHarness: FC<ContactFormTestHarness> = ({
   });
 
   return (
-    <div
-      className={`
-        relative mt-8 flex max-w-128 flex-col items-center gap-4 rounded-[1rem]
-        border border-gray-700 p-4 pb-8
-        [box-shadow:0px_25px_50px_-12px_rgba(239,77,172,0.25)]
-        md:items-start
-      `}
-    >
-      <Form {...form}>
-        <form className="w-full" onSubmit={form.handleSubmit(onSubmit)}>
-          <div className="mt-4 flex flex-col gap-3">
-            {children(form)}
-            <GradientButton type="submit" className="w-35 self-end">
-              Send
-            </GradientButton>
-          </div>
-        </form>
-      </Form>
-    </div>
+    <Form {...form}>
+      <form className="w-full" onSubmit={form.handleSubmit(onSubmit)}>
+        <div className="mt-4 flex flex-col gap-3">
+          {children(form)}
+          <GradientButton type="submit" className="w-35 self-end">
+            Subscribe
+          </GradientButton>
+        </div>
+      </form>
+    </Form>
   );
 };
 
-export default ContactFormTestHarness;
+export default NewsletterFormTestHarness;

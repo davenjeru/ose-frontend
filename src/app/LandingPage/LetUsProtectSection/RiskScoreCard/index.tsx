@@ -45,7 +45,7 @@ const RiskScoreCard = () => {
       <h3 className="font-sora text-sora-heading-small font-light">
         RISK SCORE
       </h3>
-      <RiskScoreVisualizer score={Math.random() * 100} />
+      <RiskScoreVisualizer score={56} />
       <br />
       <div className="px-4 pt-6 font-roboto">
         <h4 className="font-bold">Why This Score Matters</h4>

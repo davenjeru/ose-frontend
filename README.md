@@ -1,5 +1,8 @@
 # OSE Frontend
 
+[![Unit Tests](https://github.com/davenjeru/ose-frontend/actions/workflows/test-and-coverage.yml/badge.svg)](https://github.com/davenjeru/ose-frontend/actions/workflows/test-and-coverage.yml)
+[![Coverage Status](https://coveralls.io/repos/github/davenjeru/ose-frontend/badge.svg?branch=main)](https://coveralls.io/github/davenjeru/ose-frontend?branch=main)
+
 A modern React frontend application for the Open Source Economy project built with Vite, React, and TypeScript.
 
 ## Features

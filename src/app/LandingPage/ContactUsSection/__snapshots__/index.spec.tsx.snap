@@ -1,0 +1,375 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ContactForm > renders without crashing 1`] = `
+<div>
+  <div
+    class="mb-40 bg-background px-4 text-primary-foreground"
+  >
+    <div
+      class="flex flex-col items-center gap-8 pt-10"
+    >
+      <h1
+        class="
+          text-center font-sora text-sora-heading-medium
+          md:text-sora-heading-large md:font-light
+          lg:text-sora-heading-xlarge
+          xl:text-sora-heading-xxlarge
+        "
+      >
+        Don’t Wait For The Next Breach
+      </h1>
+      <p
+        class="
+          text-center font-roboto text-roboto-text-medium font-light
+          md:text-roboto-text-large
+          lg:max-w-193
+        "
+      >
+        We’re here to support your business. Whether you want to learn more about our services, explore collaboration opportunities, or need guidance, our team is ready to help you strengthen your open source security.
+      </p>
+      <div
+        class="
+        relative mt-8 flex max-w-128 flex-col items-center gap-4 rounded-[1rem]
+        border border-gray-700 p-4 pb-8
+        [box-shadow:0px_25px_50px_-12px_rgba(239,77,172,0.25)]
+        md:items-start
+      "
+      >
+        <h2
+          class="
+          text-center font-sora text-sora-heading-small font-light
+          md:text-left md:text-sora-heading-large
+        "
+        >
+          Get In Touch
+        </h2>
+        <p
+          class="
+          text-center font-roboto text-roboto-text-small font-light
+          md:text-left md:text-roboto-text-large
+        "
+        >
+          This is so that we can get in contact with you in case any opportunity comes up
+        </p>
+        <form
+          class="w-full"
+        >
+          <div
+            class="mt-4 flex flex-col gap-3"
+          >
+            <div
+              class="
+                flex flex-col gap-3
+                md:flex-row md:gap-2
+              "
+            >
+              <div
+                class="gap-0 flex grow flex-col"
+                data-slot="form-item"
+              >
+                <div
+                  class="flex flex-col gap-2"
+                >
+                  <label
+                    class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                    data-error="false"
+                    data-slot="form-label"
+                    for="«r0»-form-item"
+                  >
+                    Your Full Name*
+                  </label>
+                  <input
+                    aria-describedby="«r0»-form-item-description"
+                    aria-invalid="false"
+                    class="h-12 w-full min-w-0 rounded-sm border border-gray-700 bg-transparent p-3 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20"
+                    data-slot="form-control"
+                    id="«r0»-form-item"
+                    name="fullName"
+                    placeholder="Your Full Name"
+                  />
+                </div>
+              </div>
+              <div
+                class="gap-0 flex grow flex-col"
+                data-slot="form-item"
+              >
+                <div
+                  class="relative flex flex-col gap-2"
+                >
+                  <label
+                    class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                    data-error="false"
+                    data-slot="form-label"
+                    for="«r1»-form-item"
+                  >
+                    Your Email*
+                  </label>
+                  <input
+                    aria-describedby="«r1»-form-item-description"
+                    aria-invalid="false"
+                    class="h-12 w-full min-w-0 rounded-sm border border-gray-700 bg-transparent p-3 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20"
+                    data-slot="form-control"
+                    id="«r1»-form-item"
+                    name="email"
+                    placeholder="Your Email"
+                    type="email"
+                  />
+                  <img
+                    alt="Email Icon"
+                    class="absolute top-8.5 right-2"
+                    height="24"
+                    src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M19.5%207.8V16.2C19.5%2016.6774%2019.3055%2017.1352%2018.9593%2017.4728C18.6131%2017.8104%2018.1435%2018%2017.6538%2018H5.34615C4.85652%2018%204.38695%2017.8104%204.04073%2017.4728C3.6945%2017.1352%203.5%2016.6774%203.5%2016.2V7.8M19.5%207.8C19.5%207.32261%2019.3055%206.86477%2018.9593%206.52721C18.6131%206.18964%2018.1435%206%2017.6538%206H5.34615C4.85652%206%204.38695%206.18964%204.04073%206.52721C3.6945%206.86477%203.5%207.32261%203.5%207.8M19.5%207.8V7.9944C19.5%208.30172%2019.4194%208.60392%2019.2657%208.87224C19.112%209.14055%2018.8904%209.36603%2018.6221%209.5272L12.4682%2013.2192C12.1771%2013.394%2011.8419%2013.4866%2011.5%2013.4866C11.1581%2013.4866%2010.8229%2013.394%2010.5318%2013.2192L4.37795%209.528C4.10958%209.36683%203.888%209.14135%203.73431%208.87304C3.58063%208.60472%203.49997%208.30252%203.5%207.9952V7.8'%20stroke='%23F5F7FA'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                    width="24"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex grow flex-col gap-2"
+              data-slot="form-item"
+            >
+              <label
+                class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                data-error="false"
+                data-slot="form-label"
+                for="«r2»-form-item"
+              >
+                Your LinkedIn
+              </label>
+              <input
+                aria-describedby="«r2»-form-item-description"
+                aria-invalid="false"
+                class="h-12 w-full min-w-0 rounded-sm border border-gray-700 bg-transparent p-3 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20"
+                data-slot="form-control"
+                id="«r2»-form-item"
+                name="linkedInProfile"
+                placeholder="Your LinkedIn"
+                type="url"
+              />
+            </div>
+            <div
+              class="gap-0 flex grow flex-col"
+              data-slot="form-item"
+            >
+              <div
+                class="flex flex-col gap-2"
+              >
+                <label
+                  class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                  data-error="false"
+                  data-slot="form-label"
+                  for="«r3»-form-item"
+                >
+                  Your Message*
+                </label>
+                <textarea
+                  aria-describedby="«r3»-form-item-description"
+                  aria-invalid="false"
+                  class="flex field-sizing-content min-h-16 w-full rounded-md border border-gray-700 bg-transparent px-3 py-2 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground-2 placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 md:text-sm dark:bg-input/30 dark:aria-invalid:ring-destructive/40 h-25"
+                  data-slot="form-control"
+                  id="«r3»-form-item"
+                  name="message"
+                  placeholder="Enter your message..."
+                />
+              </div>
+            </div>
+            <button
+              class="h-max cursor-pointer rounded-[12px] bg-linear-(--background-gradient) px-4 py-2.5 font-sora font-light disabled:cursor-progress disabled:[filter:grayscale(0.5)] w-35 self-end"
+              type="submit"
+            >
+              Send
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ContactUsSection > renders without crashing 1`] = `
+<div>
+  <div
+    class="mb-40 bg-background px-4 text-primary-foreground"
+  >
+    <div
+      class="flex flex-col items-center gap-8 pt-10"
+    >
+      <h1
+        class="
+          text-center font-sora text-sora-heading-medium
+          md:text-sora-heading-large md:font-light
+          lg:text-sora-heading-xlarge
+          xl:text-sora-heading-xxlarge
+        "
+      >
+        Don’t Wait For The Next Breach
+      </h1>
+      <p
+        class="
+          text-center font-roboto text-roboto-text-medium font-light
+          md:text-roboto-text-large
+          lg:max-w-193
+        "
+      >
+        We’re here to support your business. Whether you want to learn more about our services, explore collaboration opportunities, or need guidance, our team is ready to help you strengthen your open source security.
+      </p>
+      <div
+        class="
+        relative mt-8 flex max-w-128 flex-col items-center gap-4 rounded-[1rem]
+        border border-gray-700 p-4 pb-8
+        [box-shadow:0px_25px_50px_-12px_rgba(239,77,172,0.25)]
+        md:items-start
+      "
+      >
+        <h2
+          class="
+          text-center font-sora text-sora-heading-small font-light
+          md:text-left md:text-sora-heading-large
+        "
+        >
+          Get In Touch
+        </h2>
+        <p
+          class="
+          text-center font-roboto text-roboto-text-small font-light
+          md:text-left md:text-roboto-text-large
+        "
+        >
+          This is so that we can get in contact with you in case any opportunity comes up
+        </p>
+        <form
+          class="w-full"
+        >
+          <div
+            class="mt-4 flex flex-col gap-3"
+          >
+            <div
+              class="
+                flex flex-col gap-3
+                md:flex-row md:gap-2
+              "
+            >
+              <div
+                class="gap-0 flex grow flex-col"
+                data-slot="form-item"
+              >
+                <div
+                  class="flex flex-col gap-2"
+                >
+                  <label
+                    class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                    data-error="false"
+                    data-slot="form-label"
+                    for="«r0»-form-item"
+                  >
+                    Your Full Name*
+                  </label>
+                  <input
+                    aria-describedby="«r0»-form-item-description"
+                    aria-invalid="false"
+                    class="h-12 w-full min-w-0 rounded-sm border border-gray-700 bg-transparent p-3 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20"
+                    data-slot="form-control"
+                    id="«r0»-form-item"
+                    name="fullName"
+                    placeholder="Your Full Name"
+                  />
+                </div>
+              </div>
+              <div
+                class="gap-0 flex grow flex-col"
+                data-slot="form-item"
+              >
+                <div
+                  class="relative flex flex-col gap-2"
+                >
+                  <label
+                    class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                    data-error="false"
+                    data-slot="form-label"
+                    for="«r1»-form-item"
+                  >
+                    Your Email*
+                  </label>
+                  <input
+                    aria-describedby="«r1»-form-item-description"
+                    aria-invalid="false"
+                    class="h-12 w-full min-w-0 rounded-sm border border-gray-700 bg-transparent p-3 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20"
+                    data-slot="form-control"
+                    id="«r1»-form-item"
+                    name="email"
+                    placeholder="Your Email"
+                    type="email"
+                  />
+                  <img
+                    alt="Email Icon"
+                    class="absolute top-8.5 right-2"
+                    height="24"
+                    src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M19.5%207.8V16.2C19.5%2016.6774%2019.3055%2017.1352%2018.9593%2017.4728C18.6131%2017.8104%2018.1435%2018%2017.6538%2018H5.34615C4.85652%2018%204.38695%2017.8104%204.04073%2017.4728C3.6945%2017.1352%203.5%2016.6774%203.5%2016.2V7.8M19.5%207.8C19.5%207.32261%2019.3055%206.86477%2018.9593%206.52721C18.6131%206.18964%2018.1435%206%2017.6538%206H5.34615C4.85652%206%204.38695%206.18964%204.04073%206.52721C3.6945%206.86477%203.5%207.32261%203.5%207.8M19.5%207.8V7.9944C19.5%208.30172%2019.4194%208.60392%2019.2657%208.87224C19.112%209.14055%2018.8904%209.36603%2018.6221%209.5272L12.4682%2013.2192C12.1771%2013.394%2011.8419%2013.4866%2011.5%2013.4866C11.1581%2013.4866%2010.8229%2013.394%2010.5318%2013.2192L4.37795%209.528C4.10958%209.36683%203.888%209.14135%203.73431%208.87304C3.58063%208.60472%203.49997%208.30252%203.5%207.9952V7.8'%20stroke='%23F5F7FA'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                    width="24"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex grow flex-col gap-2"
+              data-slot="form-item"
+            >
+              <label
+                class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                data-error="false"
+                data-slot="form-label"
+                for="«r2»-form-item"
+              >
+                Your LinkedIn
+              </label>
+              <input
+                aria-describedby="«r2»-form-item-description"
+                aria-invalid="false"
+                class="h-12 w-full min-w-0 rounded-sm border border-gray-700 bg-transparent p-3 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20"
+                data-slot="form-control"
+                id="«r2»-form-item"
+                name="linkedInProfile"
+                placeholder="Your LinkedIn"
+                type="url"
+              />
+            </div>
+            <div
+              class="gap-0 flex grow flex-col"
+              data-slot="form-item"
+            >
+              <div
+                class="flex flex-col gap-2"
+              >
+                <label
+                  class="flex items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 font-sora text-sora-text-small font-light"
+                  data-error="false"
+                  data-slot="form-label"
+                  for="«r3»-form-item"
+                >
+                  Your Message*
+                </label>
+                <textarea
+                  aria-describedby="«r3»-form-item-description"
+                  aria-invalid="false"
+                  class="flex field-sizing-content min-h-16 w-full rounded-md border border-gray-700 bg-transparent px-3 py-2 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-secondary-foreground-2 placeholder:font-roboto placeholder:text-[14px] placeholder:font-light placeholder:text-primary-grey focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 md:text-sm dark:bg-input/30 dark:aria-invalid:ring-destructive/40 h-25"
+                  data-slot="form-control"
+                  id="«r3»-form-item"
+                  name="message"
+                  placeholder="Enter your message..."
+                />
+              </div>
+            </div>
+            <button
+              class="h-max cursor-pointer rounded-[12px] bg-linear-(--background-gradient) px-4 py-2.5 font-sora font-light disabled:cursor-progress disabled:[filter:grayscale(0.5)] w-35 self-end"
+              type="submit"
+            >
+              Send
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

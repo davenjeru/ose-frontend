@@ -1,0 +1,381 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LetUsProtectSection > renders without crashing 1`] = `
+<div>
+  <div
+    class="mb-40 bg-background px-4 text-primary-foreground"
+  >
+    <div
+      class="flex flex-col items-center gap-16 px-4"
+    >
+      <h1
+        class="
+          text-center font-sora text-sora-heading-medium
+          md:text-sora-heading-large md:font-light
+          lg:text-sora-heading-xlarge
+          xl:text-sora-heading-xxlarge
+        "
+      >
+        Let Us Protect You
+      </h1>
+      <div
+        class="
+          flex flex-col items-center justify-center gap-12
+          md:flex-row md:gap-8
+        "
+      >
+        <dl
+          class="
+      flex list-none flex-col gap-10
+      [counter-reset:feature]
+      md:gap-20
+    "
+        >
+          <li
+            class="[counter-increment:feature]"
+          >
+            <div
+              class="flex flex-col gap-1"
+            >
+              <dt
+                class="
+          flex flex-row gap-2 font-sora text-sora-heading-small font-light
+          before:font-sora before:text-sora-heading-small before:font-light
+          before:text-secondary-foreground-2
+          md:gap-4 md:text-sora-heading-medium
+          md:before:text-sora-heading-medium
+          lg:text-sora-heading-large lg:before:text-sora-heading-large
+          xl:text-sora-heading-xlarge xl:before:text-sora-heading-xlarge
+          
+            before:[content:counter(feature,decimal-leading-zero)]
+            md:before:[content:counter(feature,decimal-leading-zero)]
+            lg:before:[content:counter(feature,decimal-leading-zero)]
+            xl:before:[content:counter(feature,decimal-leading-zero)]
+          
+          items-center justify-center
+          md:items-start md:justify-normal
+        "
+              >
+                <h1>
+                  We Analyze
+                </h1>
+              </dt>
+              <dd
+                class="
+          max-w-218 text-center font-roboto text-roboto-text-small font-light
+          text-subtitle
+          sm:text-roboto-text-regular
+          md:text-left md:text-roboto-text-medium
+          lg:text-roboto-text-large
+        "
+              >
+                We score your open source dependencies, measuring community strength, maintainer expertise, and supply chain integrity.
+              </dd>
+            </div>
+          </li>
+          <li
+            class="[counter-increment:feature]"
+          >
+            <div
+              class="flex flex-col gap-1"
+            >
+              <dt
+                class="
+          flex flex-row gap-2 font-sora text-sora-heading-small font-light
+          before:font-sora before:text-sora-heading-small before:font-light
+          before:text-secondary-foreground-2
+          md:gap-4 md:text-sora-heading-medium
+          md:before:text-sora-heading-medium
+          lg:text-sora-heading-large lg:before:text-sora-heading-large
+          xl:text-sora-heading-xlarge xl:before:text-sora-heading-xlarge
+          
+            before:[content:counter(feature,decimal-leading-zero)]
+            md:before:[content:counter(feature,decimal-leading-zero)]
+            lg:before:[content:counter(feature,decimal-leading-zero)]
+            xl:before:[content:counter(feature,decimal-leading-zero)]
+          
+          items-center justify-center
+          md:items-start md:justify-normal
+        "
+              >
+                <h1>
+                  We Alert
+                </h1>
+              </dt>
+              <dd
+                class="
+          max-w-218 text-center font-roboto text-roboto-text-small font-light
+          text-subtitle
+          sm:text-roboto-text-regular
+          md:text-left md:text-roboto-text-medium
+          lg:text-roboto-text-large
+        "
+              >
+                We send actionable, real-time alerts—detecting hidden risks, mapping CVEs, and clarifying exploitability with VEX to eliminate false positives.
+              </dd>
+            </div>
+          </li>
+          <li
+            class="[counter-increment:feature]"
+          >
+            <div
+              class="flex flex-col gap-1"
+            >
+              <dt
+                class="
+          flex flex-row gap-2 font-sora text-sora-heading-small font-light
+          before:font-sora before:text-sora-heading-small before:font-light
+          before:text-secondary-foreground-2
+          md:gap-4 md:text-sora-heading-medium
+          md:before:text-sora-heading-medium
+          lg:text-sora-heading-large lg:before:text-sora-heading-large
+          xl:text-sora-heading-xlarge xl:before:text-sora-heading-xlarge
+          
+            before:[content:counter(feature,decimal-leading-zero)]
+            md:before:[content:counter(feature,decimal-leading-zero)]
+            lg:before:[content:counter(feature,decimal-leading-zero)]
+            xl:before:[content:counter(feature,decimal-leading-zero)]
+          
+          items-center justify-center
+          md:items-start md:justify-normal
+        "
+              >
+                <h1>
+                  We Partner
+                </h1>
+              </dt>
+              <dd
+                class="
+          max-w-218 text-center font-roboto text-roboto-text-small font-light
+          text-subtitle
+          sm:text-roboto-text-regular
+          md:text-left md:text-roboto-text-medium
+          lg:text-roboto-text-large
+        "
+              >
+                For your most critical dependencies, we provide direct support, collaborating with maintainers, hardening projects, and ensuring long-term security and sustainability.
+              </dd>
+            </div>
+          </li>
+        </dl>
+        <div
+          class="
+        flex max-w-80 flex-col items-center rounded-md border border-gray-700
+        p-2 pb-4
+        md:h-134
+      "
+        >
+          <h3
+            class="font-sora text-sora-heading-small font-light"
+          >
+            RISK SCORE
+          </h3>
+          <div
+            class="relative h-max w-max"
+          >
+            <svg
+              class="transform"
+              height="100"
+              viewBox="0 0 180 100"
+              width="180"
+            >
+              <defs>
+                <lineargradient
+                  id="gradient"
+                  x1="0%"
+                  x2="100%"
+                  y1="0%"
+                  y2="0%"
+                >
+                  <stop
+                    offset="0%"
+                    stop-color="#FF0000"
+                  />
+                  <stop
+                    offset="10%"
+                    stop-color="#FF7E4B"
+                  />
+                  <stop
+                    offset="50%"
+                    stop-color="#F6FF45"
+                  />
+                  <stop
+                    offset="100%"
+                    stop-color="#F6FF45"
+                  />
+                </lineargradient>
+              </defs>
+              <path
+                d="M 10 90 A 80 80 0 0 1 170 90"
+                fill="none"
+                stroke="#5473A2"
+                stroke-linecap="round"
+                stroke-width="20"
+              />
+              <path
+                class="transition-all duration-500 ease-in-out"
+                d="M 10 90 A 80 80 0 0 1 170 90"
+                fill="none"
+                stroke="url(#gradient)"
+                stroke-dasharray="251.32741228718345"
+                stroke-dashoffset="110.58406140636072"
+                stroke-linecap="round"
+                stroke-width="10"
+              />
+            </svg>
+            <div
+              class="
+          absolute top-8 flex flex-col items-center gap-2 font-roboto text-lg
+          font-light
+        "
+            >
+              <p>
+                SCORE
+              </p>
+              <b
+                class="-mt-2 text-center text-roboto-text-large font-bold"
+              >
+                56
+                %
+              </b>
+              <div
+                class="
+            relative flex w-46 flex-row justify-between text-center font-roboto
+          "
+              >
+                <p>
+                  0
+                </p>
+                <p
+                  class="
+              absolute top-2 left-17 h-4 w-13 rounded-lg p-1 font-sora
+              text-[6px] font-light
+            "
+                  style="background-color: rgb(246, 255, 69); color: black;"
+                >
+                  Medium Risk
+                </p>
+                <p>
+                  100
+                </p>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div
+            class="px-4 pt-6 font-roboto"
+          >
+            <h4
+              class="font-bold"
+            >
+              Why This Score Matters
+            </h4>
+            <ul
+              class="
+      flex list-none flex-col gap-1 text-roboto-text-tiny text-primary-grey
+    "
+            >
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="."
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='5'%20cy='5'%20r='5'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  Supply chain attacks increased 650% in 2022
+                </p>
+              </li>
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="."
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='5'%20cy='5'%20r='5'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  70% of vulnerabilities are in dependencies, not your code
+                </p>
+              </li>
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="."
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='5'%20cy='5'%20r='5'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  Medium risk dependencies need active monitoring
+                </p>
+              </li>
+            </ul>
+            <br />
+            <h4
+              class="font-bold"
+            >
+              What We Analyze
+            </h4>
+            <ul
+              class="
+      flex list-none flex-col gap-1 text-roboto-text-tiny text-primary-grey
+    "
+            >
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="Community Health Icon"
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='14'%20height='14'%20viewBox='0%200%2014%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9.33317%209.91661V11.0833H1.1665V9.91661C1.1665%209.91661%201.1665%207.58327%205.24984%207.58327C9.33317%207.58327%209.33317%209.91661%209.33317%209.91661ZM7.2915%204.37494C7.2915%203.97114%207.17176%203.5764%206.94742%203.24065C6.72308%202.9049%206.40422%202.64322%206.03115%202.48869C5.65808%202.33416%205.24757%202.29373%204.85153%202.3725C4.45548%202.45128%204.09169%202.64573%203.80616%202.93126C3.52063%203.2168%203.32618%203.58059%203.2474%203.97663C3.16862%204.37268%203.20905%204.78319%203.36358%205.15625C3.51811%205.52932%203.7798%205.84818%204.11555%206.07252C4.4513%206.29687%204.84603%206.41661%205.24984%206.41661C5.79132%206.41661%206.31063%206.2015%206.69351%205.81862C7.0764%205.43573%207.2915%204.91642%207.2915%204.37494ZM9.29817%207.58327C9.65677%207.86079%209.9502%208.21353%2010.1578%208.61665C10.3654%209.01978%2010.4822%209.46351%2010.4998%209.91661V11.0833H12.8332V9.91661C12.8332%209.91661%2012.8332%207.79911%209.29817%207.58327ZM8.74984%202.33327C8.34838%202.33141%207.9558%202.45142%207.624%202.67744C7.97834%203.17254%208.16887%203.76611%208.16887%204.37494C8.16887%204.98377%207.97834%205.57734%207.624%206.07244C7.9558%206.29846%208.34838%206.41847%208.74984%206.41661C9.29132%206.41661%209.81063%206.2015%2010.1935%205.81862C10.5764%205.43573%2010.7915%204.91642%2010.7915%204.37494C10.7915%203.83346%2010.5764%203.31415%2010.1935%202.93126C9.81063%202.54838%209.29132%202.33327%208.74984%202.33327Z'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  Community Health
+                </p>
+              </li>
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="Security Practices Icon"
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='14'%20height='14'%20viewBox='0%200%2014%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M12.25%206.41658C12.25%209.65409%2010.01%2012.6816%207%2013.4166C3.99%2012.6816%201.75%209.65409%201.75%206.41658V2.91659L7%200.583252L12.25%202.91659V6.41658ZM7%2012.2499C9.1875%2011.6666%2011.0833%209.06492%2011.0833%206.54492V3.67492L7%201.85492L2.91667%203.67492V6.54492C2.91667%209.06492%204.8125%2011.6666%207%2012.2499Z'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  Security Practices
+                </p>
+              </li>
+              <li
+                class="flex flex-row gap-2"
+              >
+                <img
+                  alt="Supply Chain Integrity Icon"
+                  class=""
+                  height="10"
+                  src="data:image/svg+xml,%3csvg%20width='14'%20height='14'%20viewBox='0%200%2014%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M6.17747%207.82247C6.41664%208.04997%206.41664%208.4233%206.17747%208.6508C5.94997%208.8783%205.57664%208.8783%205.34914%208.6508C4.80277%208.10362%204.4959%207.36197%204.4959%206.58872C4.4959%205.81546%204.80277%205.07382%205.34914%204.52664L7.41414%202.46164C7.96132%201.91527%208.70297%201.6084%209.47622%201.6084C10.2495%201.6084%2010.9911%201.91527%2011.5383%202.46164C12.0847%203.00882%2012.3915%203.75047%2012.3915%204.52372C12.3915%205.29697%2012.0847%206.03862%2011.5383%206.5858L10.6691%207.45497C10.675%206.97664%2010.5991%206.4983%2010.4358%206.0433L10.71%205.7633C10.8736%205.60162%2011.0036%205.40905%2011.0923%205.19676C11.181%204.98448%2011.2266%204.7567%2011.2266%204.52664C11.2266%204.29657%2011.181%204.06879%2011.0923%203.85651C11.0036%203.64422%2010.8736%203.45165%2010.71%203.28997C10.5483%203.1263%2010.3557%202.99635%2010.1434%202.90766C9.93115%202.81897%209.70337%202.7733%209.4733%202.7733C9.24324%202.7733%209.01546%202.81897%208.80317%202.90766C8.59089%202.99635%208.39832%203.1263%208.23664%203.28997L6.17747%205.34914C6.0138%205.51082%205.88385%205.70339%205.79516%205.91567C5.70647%206.12796%205.6608%206.35574%205.6608%206.5858C5.6608%206.81587%205.70647%207.04365%205.79516%207.25593C5.88385%207.46822%206.0138%207.66078%206.17747%207.82247ZM7.82247%205.34914C8.04997%205.12164%208.4233%205.12164%208.6508%205.34914C9.19716%205.89632%209.50404%206.63797%209.50404%207.41122C9.50404%208.18447%209.19716%208.92612%208.6508%209.4733L6.5858%2011.5383C6.03862%2012.0847%205.29697%2012.3915%204.52372%2012.3915C3.75047%2012.3915%203.00882%2012.0847%202.46164%2011.5383C1.91527%2010.9911%201.6084%2010.2495%201.6084%209.47622C1.6084%208.70297%201.91527%207.96132%202.46164%207.41414L3.3308%206.54497C3.32497%207.0233%203.4008%207.50164%203.56414%207.96247L3.28997%208.23664C3.1263%208.39832%202.99635%208.59089%202.90766%208.80317C2.81897%209.01546%202.7733%209.24324%202.7733%209.4733C2.7733%209.70337%202.81897%209.93115%202.90766%2010.1434C2.99635%2010.3557%203.1263%2010.5483%203.28997%2010.71C3.45165%2010.8736%203.64422%2011.0036%203.85651%2011.0923C4.06879%2011.181%204.29657%2011.2266%204.52664%2011.2266C4.7567%2011.2266%204.98448%2011.181%205.19676%2011.0923C5.40905%2011.0036%205.60162%2010.8736%205.7633%2010.71L7.82247%208.6508C7.98614%208.48912%208.11609%208.29655%208.20478%208.08426C8.29347%207.87198%208.33914%207.6442%208.33914%207.41414C8.33914%207.18407%208.29347%206.95629%208.20478%206.74401C8.11609%206.53172%207.98614%206.33915%207.82247%206.17747C7.76581%206.12438%207.72065%206.06023%207.68978%205.989C7.65891%205.91776%207.64298%205.84094%207.64298%205.7633C7.64298%205.68566%207.65891%205.60885%207.68978%205.53761C7.72065%205.46637%207.76581%205.40222%207.82247%205.34914Z'%20fill='%23FF518C'/%3e%3c/svg%3e"
+                  width="10"
+                />
+                <p>
+                  Supply Chain Integrity
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
