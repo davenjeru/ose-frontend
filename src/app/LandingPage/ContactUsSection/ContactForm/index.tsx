@@ -1,4 +1,3 @@
-import { gql } from '@apollo/client';
 import { useMutation } from '@apollo/client/react';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { type FC, type PropsWithChildren } from 'react';
@@ -7,6 +6,7 @@ import EmailInput from '@/app/LandingPage/ContactUsSection/ContactForm/EmailInpu
 import FullNameInput from '@/app/LandingPage/ContactUsSection/ContactForm/FullNameInput';
 import LinkedInInput from '@/app/LandingPage/ContactUsSection/ContactForm/LinkedInInput';
 import MessageInput from '@/app/LandingPage/ContactUsSection/ContactForm/MessageInput';
+import { SEND_MESSAGE } from '@/app/LandingPage/ContactUsSection/ContactForm/mutation.ts';
 import {
   type FormSchema,
   formSchema,
@@ -18,26 +18,6 @@ import closeIcon from '@/lib/icons/close.svg';
 import errorIcon from '@/lib/icons/error.svg';
 import errorBullet from '@/lib/icons/error-bullet.svg';
 import sentIcon from '@/lib/icons/sent.svg';
-
-const SEND_MESSAGE = gql`
-  mutation CreateReceivedMessage(
-    $email: String!
-    $fullName: String!
-    $linkedInProfile: String
-    $message: String!
-  ) {
-    createReceivedMessage(
-      input: {
-        email: $email
-        fullName: $fullName
-        linkedInProfile: $linkedInProfile
-        message: $message
-      }
-    ) {
-      success
-    }
-  }
-`;
 
 type ContactFormMessageProps = PropsWithChildren<{ close: () => void }>;
 
@@ -146,10 +126,12 @@ const ContactForm = () => {
   };
 
   let sendMessageSuccess = false;
+
   if (data) {
     const { createReceivedMessage } = data as CreateReceivedMessageResponse;
     sendMessageSuccess = createReceivedMessage.success;
   }
+
   const onSubmit: SubmitHandler<FormSchema> = async (formData) => {
     await sendMessage({ variables: formData });
   };
