@@ -15,7 +15,7 @@ import reactPlugin from 'eslint-plugin-react';
 
 export default tseslint.config(
   [
-    globalIgnores(['dist']),
+    globalIgnores(['dist', 'vite.config.ts', 'vitest.config.ts']),
     {
       files: ['**/*.{tsx,ts}'],
       ...reactPlugin.configs.flat['jsx-runtime'],

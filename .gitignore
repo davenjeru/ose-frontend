@@ -178,3 +178,7 @@ dist-ssr
 .env.test.local
 .env.production.local
 .env.local
+
+# Test and coverage
+coverage
+**/__screenshots__/*
