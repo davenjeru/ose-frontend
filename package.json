@@ -14,8 +14,8 @@
     "storybook": "storybook dev -p 7777",
     "build-storybook": "storybook build",
     "prepare": "husky",
-    "test": "vitest run --config vitest.config.ts",
-    "test:cov": "vitest run --coverage --config vitest.config.ts"
+    "test": "npx playwright install && vitest run --config vitest.config.ts",
+    "test:cov": "npx playwright install && vitest run --coverage --config vitest.config.ts"
   },
   "dependencies": {
     "@apollo/client": "^4.0.5",
