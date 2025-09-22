@@ -2,10 +2,10 @@ import { useMutation } from '@apollo/client/react';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { type FC, type PropsWithChildren } from 'react';
 import { type SubmitHandler, useForm } from 'react-hook-form';
-import EmailInput from '@/app/LandingPage/ContactUsSection/ContactForm/EmailInput';
-import FullNameInput from '@/app/LandingPage/ContactUsSection/ContactForm/FullNameInput';
-import LinkedInInput from '@/app/LandingPage/ContactUsSection/ContactForm/LinkedInInput';
-import MessageInput from '@/app/LandingPage/ContactUsSection/ContactForm/MessageInput';
+import EmailInput from '@/app/LandingPage/ContactUsSection/ContactForm/inputs/EmailInput';
+import FullNameInput from '@/app/LandingPage/ContactUsSection/ContactForm/inputs/FullNameInput';
+import LinkedInInput from '@/app/LandingPage/ContactUsSection/ContactForm/inputs/LinkedInInput';
+import MessageInput from '@/app/LandingPage/ContactUsSection/ContactForm/inputs/MessageInput';
 import { SEND_MESSAGE } from '@/app/LandingPage/ContactUsSection/ContactForm/mutation.ts';
 import {
   type FormSchema,
@@ -116,21 +116,12 @@ const ContactForm = () => {
     mode: 'onBlur',
   });
 
-  const [
-    sendMessage,
-    { loading: messageIsSending, error: sendMessageError, data, reset },
-  ] = useMutation(SEND_MESSAGE);
-
   type CreateReceivedMessageResponse = {
     createReceivedMessage: { success: boolean };
   };
 
-  let sendMessageSuccess = false;
-
-  if (data) {
-    const { createReceivedMessage } = data as CreateReceivedMessageResponse;
-    sendMessageSuccess = createReceivedMessage.success;
-  }
+  const [sendMessage, { loading: messageIsSending, error, data, reset }] =
+    useMutation<CreateReceivedMessageResponse>(SEND_MESSAGE);
 
   const onSubmit: SubmitHandler<FormSchema> = async (formData) => {
     await sendMessage({ variables: formData });
@@ -145,8 +136,13 @@ const ContactForm = () => {
         md:items-start
       `}
     >
-      {sendMessageSuccess && <ContactFormSuccess close={() => reset()} />}
-      {sendMessageError && <ContactFormError close={() => reset()} />}
+      {data && data.createReceivedMessage.success && (
+        <ContactFormSuccess close={() => reset()} />
+      )}
+      {data && !data.createReceivedMessage.success && (
+        <ContactFormError close={() => reset()} />
+      )}
+      {error && <ContactFormError close={() => reset()} />}
 
       <h2
         className={`

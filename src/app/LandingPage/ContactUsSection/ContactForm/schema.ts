@@ -1,8 +1,8 @@
 import { z } from 'zod';
-import emailSchema from './EmailInput/schema.ts';
-import fullNameSchema from './FullNameInput/schema.ts';
-import linkedInSchema from './LinkedInInput/schema.ts';
-import messageSchema from './MessageInput/schema.ts';
+import emailSchema from './inputs/EmailInput/schema.ts';
+import fullNameSchema from './inputs/FullNameInput/schema.ts';
+import linkedInSchema from './inputs/LinkedInInput/schema.ts';
+import messageSchema from './inputs/MessageInput/schema.ts';
 
 export const formSchema = z.object({
   fullName: fullNameSchema,

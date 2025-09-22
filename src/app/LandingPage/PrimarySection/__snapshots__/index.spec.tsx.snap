@@ -1,0 +1,137 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PrimarySection > renders without crashing 1`] = `
+<div>
+  <div
+    class="mb-40 bg-background px-4 text-primary-foreground"
+  >
+    <div
+      class="flex flex-col items-center gap-16 pt-20"
+    >
+      <div
+        class="flex flex-col items-center gap-4"
+      >
+        <h1
+          class="
+            max-w-250 text-center font-sora text-sora-heading-medium
+            md:text-sora-heading-large md:font-light
+            lg:text-sora-heading-xlarge
+            xl:text-sora-heading-xxlarge
+          "
+        >
+          What’s The Cost Of Using Open Source Blindly?
+        </h1>
+        <p
+          class="
+            text-center font-roboto text-roboto-text-small font-light
+            text-primary-grey
+            md:max-w-180 md:text-roboto-text-medium
+          "
+        >
+          Open source is powerful — but it also opens the door to supply chain attacks. 
+          <br />
+          Too often, essential libraries are maintained by just a handful of volunteers without the resources to keep them secure.
+        </p>
+      </div>
+      <div
+        class="
+          flex flex-col gap-8
+          md:flex-row md:justify-center
+          lg:gap-16
+        "
+      >
+        <div
+          class="flex flex-col items-center font-sora"
+        >
+          <img
+            alt="Open Source Projects Stats"
+            class=""
+            height="40"
+            src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M4.80005%2017.9333H19.7334M5.94877%204.06665V17.9333M13.9898%204.06665V17.9333M18.5847%207.53332V17.9333M8.2462%206.95554H8.82056M8.2462%209.26665H8.82056M8.2462%2011.5778H8.82056M11.118%206.95554H11.6924M11.118%209.26665H11.6924M11.118%2011.5778H11.6924M8.2462%2017.9333V15.3333C8.2462%2014.8549%208.63217%2014.4666%209.10774%2014.4666H10.8308C11.3064%2014.4666%2011.6924%2014.8549%2011.6924%2015.3333V17.9333M5.37441%204.06665H14.5642M13.9898%207.53332H19.159M16.2872%2010.4222H16.2934V10.4284H16.2872V10.4222ZM16.2872%2012.7333H16.2934V12.7395H16.2872V12.7333ZM16.2872%2015.0444H16.2934V15.0506H16.2872V15.0444Z'%20stroke='%23FF8AB2'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+            width="40"
+          />
+          <p
+            class="
+        text-center text-sora-heading-medium font-light
+        text-secondary-foreground
+        sm:text-sora-heading-large
+        xl:text-sora-heading-xlarge
+      "
+          >
+            90
+            %
+          </p>
+          <p
+            class="
+        max-w-61 text-center font-roboto font-light
+        xl:text-roboto-text-large
+      "
+          >
+            of companies are using open source projects
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center font-sora"
+        >
+          <img
+            alt="Code Stats"
+            class=""
+            height="40"
+            src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.25%2012.5L16.25%2016.25L11.25%2020M18.75%2020H23.75M8.75%2033.75H31.25C32.2446%2033.75%2033.1984%2033.3549%2033.9016%2032.6516C34.6049%2031.9484%2035%2030.9946%2035%2030V10C35%209.00544%2034.6049%208.05161%2033.9016%207.34835C33.1984%206.64509%2032.2446%206.25%2031.25%206.25H8.75C7.75544%206.25%206.80161%206.64509%206.09835%207.34835C5.39509%208.05161%205%209.00544%205%2010V30C5%2030.9946%205.39509%2031.9484%206.09835%2032.6516C6.80161%2033.3549%207.75544%2033.75%208.75%2033.75Z'%20stroke='%23FF8AB2'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+            width="40"
+          />
+          <p
+            class="
+        text-center text-sora-heading-medium font-light
+        text-secondary-foreground
+        sm:text-sora-heading-large
+        xl:text-sora-heading-xlarge
+      "
+          >
+            76
+            %
+          </p>
+          <p
+            class="
+        max-w-61 text-center font-roboto font-light
+        xl:text-roboto-text-large
+      "
+          >
+            of code in codebases is open source
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center font-sora"
+        >
+          <img
+            alt="Maintainers Stats"
+            class=""
+            height="40"
+            src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M28.4316%2025.8683C29.2112%2025.3359%2030.1257%2025.0351%2031.0692%2025.0007C32.0126%2024.9663%2032.9466%2025.1998%2033.7629%2025.674C34.5793%2026.1483%2035.2447%2026.844%2035.6821%2027.6806C36.1196%2028.5173%2036.3112%2029.4607%2036.2349%2030.4017C34.2352%2031.1006%2032.1112%2031.3725%2029.9999%2031.2C29.9934%2029.311%2029.4494%2027.4613%2028.4316%2025.87C27.5281%2024.453%2026.2818%2023.2867%2024.8079%2022.4792C23.3341%2021.6716%2021.6804%2021.2489%2019.9999%2021.25C18.3196%2021.2491%2016.6663%2021.672%2015.1928%2022.4796C13.7193%2023.2871%2012.4732%2024.4532%2011.5699%2025.87M29.9982%2031.1983L29.9999%2031.25C29.9999%2031.625%2029.9799%2031.995%2029.9382%2032.36C26.9138%2034.0952%2023.4867%2035.0056%2019.9999%2035C16.3832%2035%2012.9882%2034.04%2010.0616%2032.36C10.0187%2031.9743%209.99812%2031.5864%209.99989%2031.1983M9.99989%2031.1983C7.88928%2031.3771%205.76641%2031.1061%203.76823%2030.4033C3.69215%2029.4626%203.88388%2028.5195%204.32127%2027.6832C4.75866%2026.8468%205.42384%2026.1513%206.2399%2025.6771C7.05595%2025.203%207.98955%2024.9694%208.93276%2025.0036C9.87596%2025.0377%2010.7902%2025.3381%2011.5699%2025.87M9.99989%2031.1983C10.0059%2029.3095%2010.5526%2027.4614%2011.5699%2025.87M24.9999%2011.25C24.9999%2012.5761%2024.4731%2013.8479%2023.5354%2014.7855C22.5977%2015.7232%2021.326%2016.25%2019.9999%2016.25C18.6738%2016.25%2017.402%2015.7232%2016.4644%2014.7855C15.5267%2013.8479%2014.9999%2012.5761%2014.9999%2011.25C14.9999%209.92392%2015.5267%208.65215%2016.4644%207.71447C17.402%206.77678%2018.6738%206.25%2019.9999%206.25C21.326%206.25%2022.5977%206.77678%2023.5354%207.71447C24.4731%208.65215%2024.9999%209.92392%2024.9999%2011.25ZM34.9999%2016.25C34.9999%2016.7425%2034.9029%2017.2301%2034.7144%2017.6851C34.526%2018.14%2034.2498%2018.5534%2033.9015%2018.9016C33.5533%2019.2499%2033.1399%2019.5261%2032.685%2019.7145C32.23%2019.903%2031.7423%2020%2031.2499%2020C30.7574%2020%2030.2698%2019.903%2029.8148%2019.7145C29.3599%2019.5261%2028.9465%2019.2499%2028.5982%2018.9016C28.25%2018.5534%2027.9738%2018.14%2027.7853%2017.6851C27.5969%2017.2301%2027.4999%2016.7425%2027.4999%2016.25C27.4999%2015.2554%2027.895%2014.3016%2028.5982%2013.5983C29.3015%2012.8951%2030.2553%2012.5%2031.2499%2012.5C32.2445%2012.5%2033.1983%2012.8951%2033.9015%2013.5983C34.6048%2014.3016%2034.9999%2015.2554%2034.9999%2016.25ZM12.4999%2016.25C12.4999%2016.7425%2012.4029%2017.2301%2012.2144%2017.6851C12.026%2018.14%2011.7498%2018.5534%2011.4015%2018.9016C11.0533%2019.2499%2010.6399%2019.5261%2010.185%2019.7145C9.72999%2019.903%209.24235%2020%208.74989%2020C8.25744%2020%207.7698%2019.903%207.31483%2019.7145C6.85986%2019.5261%206.44646%2019.2499%206.09824%2018.9016C5.75002%2018.5534%205.4738%2018.14%205.28535%2017.6851C5.09689%2017.2301%204.99989%2016.7425%204.99989%2016.25C4.99989%2015.2554%205.39498%2014.3016%206.09824%2013.5983C6.8015%2012.8951%207.75533%2012.5%208.74989%2012.5C9.74446%2012.5%2010.6983%2012.8951%2011.4015%2013.5983C12.1048%2014.3016%2012.4999%2015.2554%2012.4999%2016.25Z'%20stroke='%23FF8AB2'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+            width="40"
+          />
+          <p
+            class="
+        text-center text-sora-heading-medium font-light
+        text-secondary-foreground
+        sm:text-sora-heading-large
+        xl:text-sora-heading-xlarge
+      "
+          >
+            60
+            %
+          </p>
+          <p
+            class="
+        max-w-61 text-center font-roboto font-light
+        xl:text-roboto-text-large
+      "
+          >
+            of maintainers are not paid for their work
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

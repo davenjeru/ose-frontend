@@ -2,9 +2,9 @@ import { act, render, screen } from '@testing-library/react';
 import { userEvent } from '@vitest/browser/context';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { z } from 'zod';
-import linkedInSchema from './schema';
-import LinkedInInput from '@/app/LandingPage/ContactUsSection/ContactForm/LinkedInInput/index.tsx';
-import ContactFormTestHarness from '@/app/LandingPage/ContactUsSection/ContactForm/testHarness';
+import fullNameSchema from './schema';
+import FullNameInput from '@/app/LandingPage/ContactUsSection/ContactForm/inputs/FullNameInput';
+import ContactFormTestHarness from '@/app/LandingPage/ContactUsSection/ContactForm/inputs/testHarness';
 
 const onSubmitMock = vi.fn();
 
@@ -13,7 +13,7 @@ const renderInTestHarness = () => {
     <ContactFormTestHarness
       formSchema={
         z.object({
-          linkedInProfile: linkedInSchema,
+          fullName: fullNameSchema,
         }) as never
       }
       onSubmit={onSubmitMock}
@@ -21,13 +21,13 @@ const renderInTestHarness = () => {
       {
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         //  @ts-expect-error
-        (form) => <LinkedInInput form={form} />
+        (form) => <FullNameInput form={form} />
       }
     </ContactFormTestHarness>
   );
 };
 
-describe('LinkedInInput', () => {
+describe('FullNameInput', () => {
   beforeEach(() => {
     vi.clearAllMocks();
   });
@@ -37,52 +37,51 @@ describe('LinkedInInput', () => {
 
     const textbox = screen.getByRole('textbox');
 
-    expect(screen.getByText('Your LinkedIn')).toBeInTheDocument();
-    expect(textbox).toHaveProperty('placeholder', 'Your LinkedIn');
+    expect(screen.getByText('Your Full Name*')).toBeInTheDocument();
+    expect(textbox).toHaveProperty('placeholder', 'Your Full Name');
   });
 
-  it('should submit on a valid linkedIn', async () => {
-    const linkedInProfile = 'https://www.linkedin.com/in/jane-doe';
+  it('should submit on a valid fullName', async () => {
+    const fullName = 'Jane Doe';
     renderInTestHarness();
 
     const textbox = screen.getByRole('textbox');
     const button = screen.getByRole('button');
 
-    await act(() => userEvent.type(textbox, linkedInProfile));
+    await act(() => userEvent.type(textbox, fullName));
     await act(() => userEvent.click(button));
 
-    expect(onSubmitMock).toHaveBeenCalledWith(
-      { linkedInProfile },
-      expect.any(Object)
-    );
+    expect(onSubmitMock).toHaveBeenCalledWith({ fullName }, expect.any(Object));
   });
 
-  it('should not accept an invalid linkedInProfile', async () => {
-    const linkedInProfile = 'invalid';
+  it('should not accept an invalid fullName', async () => {
+    const fullName = Array.from({ length: 102 }).join('.');
     renderInTestHarness();
 
     const textbox = screen.getByRole('textbox');
     const button = screen.getByRole('button');
 
-    await act(() => userEvent.type(textbox, linkedInProfile));
+    await act(() => userEvent.type(textbox, fullName));
     await act(() => userEvent.click(button));
 
     expect(
-      screen.getByText('Enter a valid LinkedIn profile url')
+      screen.getByText('Full Name should be fewer than 100 characters')
     ).toBeInTheDocument();
     expect(onSubmitMock).not.toHaveBeenCalled();
   });
 
-  it('should submit when linkedInProfile is not filled', async () => {
+  it('should not submit when fullName is not filled', async () => {
     renderInTestHarness();
     const button = screen.getByRole('button');
     await act(() => userEvent.click(button));
-    expect(onSubmitMock).toHaveBeenCalledWith({}, expect.any(Object));
+    expect(screen.getByText('Full Name is required')).toBeInTheDocument();
+    expect(onSubmitMock).not.toHaveBeenCalled();
 
     const textbox = screen.getByRole('textbox');
     await act(() => userEvent.type(textbox, 'Jane Doe'));
     await act(() => userEvent.clear(textbox));
     await act(() => userEvent.click(button));
-    expect(onSubmitMock).toHaveBeenCalledWith({}, expect.any(Object));
+    expect(screen.getByText('Full Name is required')).toBeInTheDocument();
+    expect(onSubmitMock).not.toHaveBeenCalled();
   });
 });

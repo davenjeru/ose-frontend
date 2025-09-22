@@ -1,22 +1,14 @@
-import { gql } from '@apollo/client';
 import { useMutation } from '@apollo/client/react';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { type SubmitHandler, useForm } from 'react-hook-form';
-import EmailInput from '@/lib/components/Footer/NewsletterForm/EmailInput';
+import EmailInput from '@/lib/components/Footer/NewsletterForm/inputs/EmailInput';
+import { SUBSCRIBE_TO_NEWSLETTER } from '@/lib/components/Footer/NewsletterForm/mutation.ts';
 import {
   type FormSchema,
   formSchema,
 } from '@/lib/components/Footer/NewsletterForm/schema.ts';
 import GradientButton from '@/lib/components/GradientButton';
 import { Form } from '@/lib/components/ui/form.tsx';
-
-const SUBSCRIBE_TO_NEWSLETTER = gql`
-  mutation CreateNewsletterSubscription($email: String!) {
-    createNewsletterSubscription(input: { email: $email }) {
-      success
-    }
-  }
-`;
 
 const NewsletterForm = () => {
   const form = useForm<FormSchema>({
@@ -25,21 +17,12 @@ const NewsletterForm = () => {
     mode: 'onBlur',
   });
 
-  const [subscribeToNewsletter, { loading, error, data, reset }] = useMutation(
-    SUBSCRIBE_TO_NEWSLETTER
-  );
-
   type CreateNewsletterSubscriptionResponse = {
     createNewsletterSubscription: { success: boolean };
   };
 
-  let subscriptionSuccess = false;
-
-  if (data) {
-    const { createNewsletterSubscription } =
-      data as CreateNewsletterSubscriptionResponse;
-    subscriptionSuccess = createNewsletterSubscription.success;
-  }
+  const [subscribeToNewsletter, { loading, error, data, reset }] =
+    useMutation<CreateNewsletterSubscriptionResponse>(SUBSCRIBE_TO_NEWSLETTER);
 
   const onSubmit: SubmitHandler<FormSchema> = async (data) => {
     await subscribeToNewsletter({ variables: data });
@@ -62,16 +45,23 @@ const NewsletterForm = () => {
             className={`
               font-roboto text-[12px] font-light
               ${
-                subscriptionSuccess
-                  ? 'text-green-500'
-                  : error
-                    ? 'text-red-500'
+                error
+                  ? 'text-red-500'
+                  : data
+                    ? data.createNewsletterSubscription.success
+                      ? 'text-green-500'
+                      : 'text-red-500'
                     : ''
               }
             `}
           >
-            {!!error && 'An error occurred, please try again.'}
-            {subscriptionSuccess && 'Successfully subscribed to newsletter!'}
+            {error && 'An error occurred, please try again.'}
+            {data &&
+              !data.createNewsletterSubscription.success &&
+              'An error occurred, please try again.'}
+            {data &&
+              data.createNewsletterSubscription.success &&
+              'Successfully subscribed to newsletter!'}
           </p>
         </div>
         <GradientButton
@@ -79,7 +69,7 @@ const NewsletterForm = () => {
           type="submit"
           disabled={loading}
           onClick={() => {
-            if (!!error || subscriptionSuccess) {
+            if (error || data) {
               reset();
             }
           }}
